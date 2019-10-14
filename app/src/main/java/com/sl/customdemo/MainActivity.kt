@@ -11,6 +11,16 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+        trendCurveView()
+
+        dialView()
+    }
+
+
+    /**
+     * 贝塞尔曲线
+     */
+    private fun trendCurveView() {
         val list = (0..1000).toList()
         val mutableList = mutableListOf<DataBean>()
         for (i in list) {
@@ -22,8 +32,25 @@ class MainActivity : AppCompatActivity() {
             )
         }
         trendCurveView.setData(mutableList, "kg")
+    }
 
-        weightView.setWeight(80f, 90f, 100f, "偏高20kg");
+    /**
+     * 体重表盘
+     */
+    private fun dialView() {
+        var weight = 80f
+        weightView.setWeight(weight, 90f, 120f)
+        addValue.setOnClickListener {
+            weight += 10f
+            weightView.setWeight(weight, 90f, 120f)
+        }
+        subtractionValue.setOnClickListener {
+            weight -= 10f
+            if (weight < 0) {
+                weight = 0f
+            }
+            weightView.setWeight(weight, 90f, 120f)
+        }
     }
 
 }
