@@ -4,4 +4,4 @@
 ## 1.TrendCurveView
 
 先来个效果图
-![alt text](https://github.com/songlong446041/CustomDemo/blob/master/img.gif)
+![alt text](https://github.com/songlong446041/CustomDemo/blob/master/mm3nv-l0pzw.gif.gif)
