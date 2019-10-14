@@ -5,4 +5,4 @@
 
 先来个效果图
 
-![alt text](https://github.com/songlong446041/CustomDemo/blob/master/mm3nv-l0pzw.gif)
+![image](https://github.com/songlong446041/CustomDemo/blob/master/mm3nv-l0pzw.gif)
