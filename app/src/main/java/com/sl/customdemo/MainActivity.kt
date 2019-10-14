@@ -22,6 +22,8 @@ class MainActivity : AppCompatActivity() {
             )
         }
         trendCurveView.setData(mutableList, "kg")
+
+        weightView.setWeight(80f, 90f, 100f, "偏高20kg");
     }
 
 }
