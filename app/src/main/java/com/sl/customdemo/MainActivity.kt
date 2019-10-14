@@ -11,8 +11,7 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-//        weightView.setWeight(50f,40f,60f,"偏高",1,20f);
-        val list = (0..100).toList()
+        val list = (0..1000).toList()
         val mutableList = mutableListOf<DataBean>()
         for (i in list) {
             mutableList.add(
@@ -22,8 +21,7 @@ class MainActivity : AppCompatActivity() {
                 )
             )
         }
-
-        day_trend1.setData(mutableList, "kg")
+        trendCurveView.setData(mutableList, "kg")
     }
 
 }
