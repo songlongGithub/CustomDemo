@@ -19,6 +19,7 @@ import android.view.VelocityTracker
 import android.view.View
 import android.view.ViewConfiguration
 import android.widget.Scroller
+import androidx.core.view.marginTop
 
 
 import java.text.ParseException
@@ -43,7 +44,7 @@ class TrendCurveView @JvmOverloads constructor(
     /**
      * 源数据
      */
-    private val mSourceData = ArrayList<TrendDataBean>()
+    private val mSourceData = ArrayList<DataBean>()
     /**
      * 总条目数
      */
@@ -150,7 +151,7 @@ class TrendCurveView @JvmOverloads constructor(
     private var mBottomTextMargin: Float = 0.toFloat()
     private var mBottomHeight: Float = 0.toFloat()
 
-    private var bottomLineColor: Int = 0
+    private var mBottomLineColor: Int = 0
     /**
      * 值的单位
      */
@@ -276,7 +277,7 @@ class TrendCurveView @JvmOverloads constructor(
         mStartGradientColor = Color.parseColor("#7047DE69")
         mEndGradientColor = Color.parseColor("#0679D58E")
         mCurveLineColor = Color.parseColor("#63D798")
-        bottomLineColor = Color.parseColor("#EEEEEE")
+        mBottomLineColor = Color.parseColor("#EEEEEE")
 
 
     }
@@ -353,7 +354,7 @@ class TrendCurveView @JvmOverloads constructor(
      *
      * @param data
      */
-    fun setData(data: List<TrendDataBean>?, unit: String) {
+    fun setData(data: List<DataBean>?, unit: String) {
         if (data == null || data.isEmpty()) {
             return
         }
@@ -382,7 +383,7 @@ class TrendCurveView @JvmOverloads constructor(
         mUnitDesTextHeight = measureText(mUnitDesPaint, mUnitDes!!)[1]
     }
 
-    private fun initData(data: List<TrendDataBean>) {
+    private fun initData(data: List<DataBean>) {
         if (mTotalWidth == 0 || mTotalHeight == 0) {
             return
         }
@@ -411,53 +412,40 @@ class TrendCurveView @JvmOverloads constructor(
         var min = max
         for (dataBean in data) {
             val value = dataBean.value
-
             if (value > max) {
                 max = value
             }
             if (value < min) {
                 min = value
             }
-
         }
+
         val diff = max - min
         val scale = if (diff == 0.0) 0.6f else mAvailableAreaHeight * 0.8f / diff.toFloat()
 
-
         val pm = mTextPaint.fontMetricsInt
-        val bottomTvTop = mAvailableAreaTop + mAvailableAreaHeight
-        //内圆半径+外圆的宽+文字间距
-        val marginTop = mInnerRadius + mOuterRadiusWidth + mItemTvBottomMargin
         mCacheList.clear()
         val calendar = Calendar.getInstance()
         val simpleDateFormat = SimpleDateFormat("yyyy-MM-dd", Locale.CHINA)
-        //设置是否显示年
+
         for (i in data.indices) {
             //计算所有点坐标
             val trendDataBean = data[i]
-            val totalY = (mAvailableAreaTop + (max - trendDataBean.value) * scale).toInt()
-            val pointF = PointF(
-                (mCenterX - (data.size - 1 - i) * mEveryRectWidth).toFloat(),
-                totalY.toFloat()
-            )
+            //从右向左绘制的，偏移viewWidth的一半
+            val x = (mCenterX - (data.size - 1 - i) * mEveryRectWidth).toFloat()
+            val y = (mAvailableAreaTop + (max - trendDataBean.value) * scale).toFloat()
+            val pointF = PointF(x, y)
             val recordDate = trendDataBean.recordDate
             try {
                 val parse = simpleDateFormat.parse(recordDate)
                 calendar.time = parse
-                val year = calendar.get(Calendar.YEAR)
-                trendDataBean.year = year
-                trendDataBean.month = calendar.get(Calendar.MONTH) + 1
-                trendDataBean.day = calendar.get(Calendar.DAY_OF_MONTH)
-
+                //计算所有文字的坐标
+                val textBean = getTextBean(pm, trendDataBean.value.toString(), calendar, pointF)
+                textBean.pointF = pointF
+                mCacheList.add(textBean)
             } catch (e: ParseException) {
                 e.printStackTrace()
             }
-
-            //计算所有文字的坐标
-            val textBean = getTextBean(pm, bottomTvTop, marginTop, trendDataBean, pointF)
-            textBean.pointF = pointF
-            mCacheList.add(textBean)
-
         }
         invalidate()
     }
@@ -465,18 +453,21 @@ class TrendCurveView @JvmOverloads constructor(
 
     private fun getTextBean(
         pm: Paint.FontMetricsInt,
-        bottomTvTop: Float,
-        marginTop: Float,
-        trendDataBean: TrendDataBean,
+        value: String,
+        calendar: Calendar,
         pointF: PointF
     ): TextBean {
         //计算字体区域
-
+        val bottomTvTop = mAvailableAreaTop + mAvailableAreaHeight
+        //内圆半径+外圆的宽+文字间距
+        val marginTop = mInnerRadius + mOuterRadiusWidth + mItemTvBottomMargin
         val textBean = TextBean()
         val x = pointF.x
         val y = pointF.y
-        //顶部文字
-        val value = trendDataBean.value.toString()
+
+//        val year = calendar.get(Calendar.YEAR)
+        val month = calendar.get(Calendar.MONTH) + 1
+        val day = calendar.get(Calendar.DAY_OF_MONTH)
 
         val topTextWidth = mTextPaint.measureText(value)
         //字体居中区域
@@ -484,7 +475,6 @@ class TrendCurveView @JvmOverloads constructor(
             x - topTextWidth / 2f, y - mTopTextHeight - marginTop,
             x + topTextWidth / 2f, y - marginTop
         )
-
         val baseY =
             ((mRectF.bottom + mRectF.top - pm.bottom.toFloat() - pm.top.toFloat()) / 2f).toInt()
         textBean.centerStr = (value)
@@ -493,9 +483,9 @@ class TrendCurveView @JvmOverloads constructor(
         //底部文字
         mTextPaint.textSize = mBottomTextSize
         val stringBuilder = StringBuilder()
-        stringBuilder.append(if (trendDataBean.month < 10) "0" + trendDataBean.month else trendDataBean.month)
+        stringBuilder.append(if (month < 10) "0$month" else month)
         stringBuilder.append("-")
-        stringBuilder.append(if (trendDataBean.day < 10) "0" + trendDataBean.day else trendDataBean.day)
+        stringBuilder.append(if (day < 10) "0$day" else day)
         val bottomTvWidth = mTextPaint.measureText(stringBuilder.toString())
         mRectF.set(
             x - bottomTvWidth / 2f, bottomTvTop + mBottomTextPadding,
@@ -510,43 +500,11 @@ class TrendCurveView @JvmOverloads constructor(
 
         textBean.circleX = (x)
         textBean.circleY = (pointF.y)
-        //虚线
-        if (trendDataBean.isShowYear) {
-            val mBrokenLinePath = Path()
-            mBrokenLinePath.moveTo(x, marginTop)
-            mBrokenLinePath.lineTo(x, mAvailableAreaTop + mAvailableAreaHeight)
-            textBean.path = (mBrokenLinePath)
 
-            //虚线旁边的年
-            mTextPaint.textSize = mYearTextSize
-            val year = trendDataBean.year.toString() + "年"
-            val yearWidth = mTextPaint.measureText(year)
-
-            mRectF.set(
-                x + mBrokenLineRightMargin, marginTop,
-                x + mBrokenLineRightMargin + yearWidth, marginTop + mTopTextHeight
-            )
-            val baseTopY =
-                ((mRectF.bottom + mRectF.top - pm.bottom.toFloat() - pm.top.toFloat()) / 2f).toInt()
-            textBean.yearStr = (year)
-            textBean.yearX = (mRectF.centerX())
-            textBean.yearY = (baseTopY.toFloat())
-        }
         return textBean
     }
 
     /**
-     * *    ***********************   *
-     * *    *                     *   *
-     * *    *                     *   *
-     * *    *                     *   *
-     * *    *                     *   *
-     * *    ***********************   *
-     *
-     *
-     *
-     *
-     *
      *
      * 保证每次绘制做多nub + 3+3  三阶贝塞尔 三个控制点 左右各三个
      * 根据滑动距离计算展示的条目
@@ -554,7 +512,6 @@ class TrendCurveView @JvmOverloads constructor(
      * @param move
      */
     private fun calculateShowList(move: Int) {
-
         if (mCacheList.isEmpty()) {
             return
         }
@@ -577,7 +534,6 @@ class TrendCurveView @JvmOverloads constructor(
         for (i in start until end) {
             mShowList.add(mCacheList[i])
         }
-
     }
 
     /**
@@ -663,7 +619,6 @@ class TrendCurveView @JvmOverloads constructor(
                     currentPointY
                 )
             }
-
             // 更新值,
             prePreviousPointX = previousPointX
             prePreviousPointY = previousPointY
@@ -694,18 +649,16 @@ class TrendCurveView @JvmOverloads constructor(
      * @param canvas
      */
     private fun drawHorizontalLine(canvas: Canvas) {
-
         val baseHeight = mAvailableAreaHeight / 5
-        for (i in 0 until NUB - 1) {
+        for (i in 0 until 6) {
             val startY = baseHeight * i + mAvailableAreaTop
             canvas.drawLine(0f, startY, mViewWidth, startY, mHorizontalLinePaint)
         }
-
-        //画时间下面的line
+        //画底部line
         mPaint.shader = null
         mPaint.style = Paint.Style.STROKE
         mPaint.strokeWidth = mBottomLineHeight
-        mPaint.color = bottomLineColor
+        mPaint.color = mBottomLineColor
         canvas.drawLine(
             0f,
             mTotalHeight - mBottomLineHeight,
@@ -713,7 +666,6 @@ class TrendCurveView @JvmOverloads constructor(
             mTotalHeight - mBottomLineHeight,
             mPaint
         )
-
     }
 
     /**
@@ -873,7 +825,7 @@ class TrendCurveView @JvmOverloads constructor(
             mVelocityTracker = VelocityTracker.obtain()
         }
         mVelocityTracker!!.addMovement(event)
-        val action = event.getAction()
+        val action = event.action
 
         val pointerUp = action and MotionEvent.ACTION_MASK == MotionEvent.ACTION_POINTER_UP
         val skipIndex = if (pointerUp) event.actionIndex else -1
@@ -1086,18 +1038,20 @@ class TrendCurveView @JvmOverloads constructor(
 
 
     private inner class TextBean internal constructor() {
+        //数据文字坐标
         var centerX: Float = 0.toFloat()
         var centerY: Float = 0.toFloat()
+        //数据文字
         var centerStr: String? = null
+        //底部日期坐标
         var bottomX: Float = 0.toFloat()
         var bottomY: Float = 0.toFloat()
+        //底部日期
         var bottomStr: String? = null
+        //数据圆点坐标
         var circleX: Float = 0.toFloat()
         var circleY: Float = 0.toFloat()
-        var path: Path? = null
-        var yearStr: String? = null
-        var yearX: Float = 0.toFloat()
-        var yearY: Float = 0.toFloat()
+        //坐标点
         var pointF: PointF? = null
     }
 
