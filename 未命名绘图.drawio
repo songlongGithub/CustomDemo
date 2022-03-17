@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-17T08:00:04.765Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="idWjDkIhdN3SER6rPhS-" version="17.1.3" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-03-17T09:26:32.415Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="g7ljg-tYkM7qqt3zvr3Z" version="17.1.3" type="github" pages="2">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="按时发出">
     <mxGraphModel dx="946" dy="487" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#FFFFFF" math="0" shadow="0">
       <root>
@@ -311,7 +311,7 @@
         <mxCell id="oxVtvyuFJJ44SYQJUMJw-2" value="" style="shape=mxgraph.bpmn.data;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;whiteSpace=wrap;size=13;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="485" y="20" width="220" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="oxVtvyuFJJ44SYQJUMJw-3" value="添加3个DepartComfortsRqStrategy&#xa;和1个ClearDepartComfortStrategy&#xa;每个DepartComfortsRqStrategy中&#xa;包含send DepartComforts和delay处理，&#xa;ClearDepartComfortStrategy用来设置&#xa;复位更新标志位" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;labelBackgroundColor=none;" vertex="1" parent="1">
+        <mxCell id="oxVtvyuFJJ44SYQJUMJw-3" value="添加3个DepartComfortsRqStrategy&#xa;和1个ClearDepartComfortStrategy&#xa;每个DepartComfortsRqStrategy中&#xa;包含sendList和delay处理，&#xa;ClearDepartComfortStrategy用来设置&#xa;复位更新标志位" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;labelBackgroundColor=none;" vertex="1" parent="1">
           <mxGeometry x="485" y="50" width="220" height="50" as="geometry" />
         </mxCell>
         <mxCell id="oxVtvyuFJJ44SYQJUMJw-4" value="" style="endArrow=none;html=1;rounded=0;entryX=0.473;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="oxVtvyuFJJ44SYQJUMJw-2">
@@ -343,6 +343,24 @@
             <mxPoint x="230" y="980" as="sourcePoint" />
             <mxPoint x="320" y="970" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="egq_3MFOjjR9sNg6Ni79-1" value="" style="shape=mxgraph.bpmn.data;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;whiteSpace=wrap;size=13;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="570" y="770" width="200" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="egq_3MFOjjR9sNg6Ni79-2" value="&lt;span style=&quot;font-size: 11px&quot;&gt;DepartAndComfort&amp;nbsp; 14个&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;setChrgGoTUpdateRq(false)&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;setId(Constants.NULL_STATE_ID);&lt;/span&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="575" y="773" width="175" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="egq_3MFOjjR9sNg6Ni79-3" value="" style="endArrow=none;html=1;rounded=0;exitX=0.435;exitY=-0.106;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="egq_3MFOjjR9sNg6Ni79-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="630" y="800" as="sourcePoint" />
+            <mxPoint x="620" y="740" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="egq_3MFOjjR9sNg6Ni79-4" value="" style="shape=mxgraph.bpmn.data;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;whiteSpace=wrap;size=13;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="125" y="20" width="205" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="egq_3MFOjjR9sNg6Ni79-5" value="&lt;span style=&quot;font-size: 11px&quot;&gt;DepartAndComfort&amp;nbsp; 14个&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;setHour 0 - 23&amp;nbsp; default 24&lt;br&gt;setMinute 0-11&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;default 12&lt;/span&gt;&lt;div&gt;setComfortLevel&amp;nbsp; 0-3&amp;nbsp; default 0&amp;nbsp;&lt;/div&gt;&lt;div&gt;setChrgGoTUpdateRq&amp;nbsp; true or false&lt;/div&gt;&lt;div&gt;setOnbChrgGotOn&amp;nbsp;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="15" width="210" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
