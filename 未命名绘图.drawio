@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-17T13:13:46.851Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="-Smazf4yUWt9WiQRxaWG" version="17.1.3" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-03-18T02:29:39.860Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="LH17QRn1_u1lmi5WyttG" version="17.1.3" type="github" pages="3">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="按时发出">
     <mxGraphModel dx="1426" dy="735" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#FFFFFF" math="0" shadow="0">
       <root>
@@ -369,7 +369,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="k73rmPaJvsIZFfdMMrzq" name="预约充电">
-    <mxGraphModel dx="1426" dy="735" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="946" dy="486" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="mEOgrYx-svWfFPejbQJb-0" />
         <mxCell id="mEOgrYx-svWfFPejbQJb-1" parent="mEOgrYx-svWfFPejbQJb-0" />
@@ -392,31 +392,19 @@
           </mxCell>
         </object>
         <object label="" custom="guaiwuai" placeholders="1" id="mEOgrYx-svWfFPejbQJb-5">
-          <mxCell style="endArrow=classic;html=1;rounded=0;" parent="mEOgrYx-svWfFPejbQJb-2" edge="1">
+          <mxCell style="endArrow=classic;html=1;rounded=0;entryX=1.1;entryY=0.928;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#dae8fc;strokeColor=#6c8ebf;dashed=1;" parent="mEOgrYx-svWfFPejbQJb-2" edge="1" target="mEOgrYx-svWfFPejbQJb-3">
             <mxGeometry width="50" height="50" relative="1" as="geometry">
               <mxPoint x="55" y="150" as="sourcePoint" />
-              <mxPoint x="55" y="170" as="targetPoint" />
+              <mxPoint x="60" y="970" as="targetPoint" />
               <Array as="points">
-                <mxPoint x="95" y="150" />
-                <mxPoint x="95" y="170" />
-              </Array>
-            </mxGeometry>
-          </mxCell>
-        </object>
-        <object label="" custom="guaiwuai" placeholders="1" id="mEOgrYx-svWfFPejbQJb-6">
-          <mxCell style="endArrow=classic;html=1;rounded=0;" parent="mEOgrYx-svWfFPejbQJb-2" edge="1">
-            <mxGeometry width="50" height="50" relative="1" as="geometry">
-              <mxPoint x="55" y="970" as="sourcePoint" />
-              <mxPoint x="55" y="990" as="targetPoint" />
-              <Array as="points">
-                <mxPoint x="95" y="970" />
-                <mxPoint x="95" y="990" />
+                <mxPoint x="80" y="150" />
+                <mxPoint x="80" y="970" />
               </Array>
             </mxGeometry>
           </mxCell>
         </object>
         <mxCell id="mEOgrYx-svWfFPejbQJb-7" value="SignalUtils" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="mEOgrYx-svWfFPejbQJb-1" vertex="1">
-          <mxGeometry x="350" y="80" width="100" height="1080" as="geometry" />
+          <mxGeometry x="350" y="80" width="180" height="1080" as="geometry" />
         </mxCell>
         <mxCell id="mEOgrYx-svWfFPejbQJb-8" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" parent="mEOgrYx-svWfFPejbQJb-7" vertex="1">
           <mxGeometry x="45" y="103" width="10" height="685" as="geometry" />
@@ -532,6 +520,12 @@
             </mxGeometry>
           </mxCell>
         </object>
+        <mxCell id="SutCJiev2bX-LbydkIWs-1" value="" style="shape=mxgraph.bpmn.data;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;whiteSpace=wrap;size=13;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="mEOgrYx-svWfFPejbQJb-7" vertex="1">
+          <mxGeometry y="850" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="SutCJiev2bX-LbydkIWs-2" value="&lt;font face=&quot;Helvetica&quot; style=&quot;text-align: center&quot;&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;判断&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;font-size: 11px ; text-align: center ; font-family: &amp;#34;helvetica&amp;#34;&quot;&gt;sendChargePlan和返回的chargeList中对应的chargePlanId的chargePlan是否相同&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;whiteSpace=wrap;html=1;" parent="mEOgrYx-svWfFPejbQJb-7" vertex="1">
+          <mxGeometry x="5" y="859" width="175" height="62" as="geometry" />
+        </mxCell>
         <mxCell id="mEOgrYx-svWfFPejbQJb-21" value="FordEVSDK" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="mEOgrYx-svWfFPejbQJb-1" vertex="1">
           <mxGeometry x="740" y="80" width="100" height="1080" as="geometry" />
         </mxCell>
@@ -641,7 +635,7 @@
           <mxGeometry x="17.5" y="870" width="390" height="25" as="geometry" />
         </mxCell>
         <mxCell id="mEOgrYx-svWfFPejbQJb-48" value="&lt;font face=&quot;Helvetica&quot;&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;match&amp;nbsp;&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;font-family: &amp;#34;helvetica&amp;#34; ; font-size: 11px ; background-color: rgb(255 , 255 , 255)&quot;&gt;sendChargePlan&lt;/span&gt;&lt;font face=&quot;Helvetica&quot;&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;&amp;nbsp;and resultList&lt;br&gt;&lt;/span&gt;&lt;/font&gt;&lt;font face=&quot;Helvetica&quot;&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontFamily=Verdana;fontColor=default;" parent="mEOgrYx-svWfFPejbQJb-1" vertex="1">
-          <mxGeometry x="60" y="930" width="240" height="20" as="geometry" />
+          <mxGeometry x="80" y="930" width="240" height="20" as="geometry" />
         </mxCell>
         <object label="" custom="guaiwuai" placeholders="1" id="mEOgrYx-svWfFPejbQJb-49">
           <mxCell style="endArrow=classic;html=1;rounded=0;" parent="mEOgrYx-svWfFPejbQJb-1" edge="1">
@@ -655,24 +649,24 @@
             </mxGeometry>
           </mxCell>
         </object>
-        <mxCell id="mEOgrYx-svWfFPejbQJb-50" value="&lt;font face=&quot;Helvetica&quot;&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;match ok，关闭计时器，提示成功&lt;/span&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontFamily=Verdana;fontColor=default;" parent="mEOgrYx-svWfFPejbQJb-1" vertex="1">
-          <mxGeometry x="80" y="970" width="190" height="20" as="geometry" />
+        <mxCell id="mEOgrYx-svWfFPejbQJb-50" value="&lt;font face=&quot;Helvetica&quot;&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;match ok，关闭计时器，提示成功&lt;br&gt;&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;font-family: &amp;quot;helvetica&amp;quot; ; font-size: 11px ; background-color: rgb(255 , 255 , 255)&quot;&gt;发送needClearChargePlan=true，用来通知数据对比成功，可移除剩余信号帧&lt;/span&gt;&lt;font face=&quot;Helvetica&quot;&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontFamily=Verdana;fontColor=default;" parent="mEOgrYx-svWfFPejbQJb-1" vertex="1">
+          <mxGeometry x="100" y="980" width="210" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="mEOgrYx-svWfFPejbQJb-51" value="" style="curved=1;endArrow=classic;html=1;rounded=1;labelBackgroundColor=#00CCCC;labelBorderColor=#FF00FF;fontColor=default;strokeWidth=1;dashed=1;" parent="mEOgrYx-svWfFPejbQJb-1" source="mEOgrYx-svWfFPejbQJb-50" target="mEOgrYx-svWfFPejbQJb-40" edge="1">
+        <mxCell id="mEOgrYx-svWfFPejbQJb-51" value="" style="curved=1;endArrow=classic;html=1;rounded=1;labelBackgroundColor=#00CCCC;labelBorderColor=#FF00FF;fontColor=default;strokeWidth=1;dashed=1;" parent="mEOgrYx-svWfFPejbQJb-1" target="mEOgrYx-svWfFPejbQJb-40" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="210" y="1040" as="sourcePoint" />
+            <mxPoint x="170" y="960" as="sourcePoint" />
             <mxPoint x="260" y="990" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="160" y="1000" />
-              <mxPoint x="210" y="990" />
+              <mxPoint x="170" y="960" />
+              <mxPoint x="220" y="930" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="mEOgrYx-svWfFPejbQJb-52" value="&lt;font face=&quot;Helvetica&quot;&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;5s倒计时&lt;/span&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontFamily=Verdana;fontColor=default;" parent="mEOgrYx-svWfFPejbQJb-1" vertex="1">
-          <mxGeometry x="40" y="215" width="180" height="20" as="geometry" />
+        <mxCell id="mEOgrYx-svWfFPejbQJb-52" value="&lt;font face=&quot;Helvetica&quot;&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;开启5s倒计时，超时检测&lt;/span&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontFamily=Verdana;fontColor=default;" parent="mEOgrYx-svWfFPejbQJb-1" vertex="1">
+          <mxGeometry x="70" y="210" width="180" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="mEOgrYx-svWfFPejbQJb-53" value="&lt;font face=&quot;Helvetica&quot;&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;5s结束，未对比成功，提示失败&lt;/span&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontFamily=Verdana;fontColor=default;" parent="mEOgrYx-svWfFPejbQJb-1" vertex="1">
-          <mxGeometry x="70" y="1030" width="180" height="20" as="geometry" />
+        <mxCell id="mEOgrYx-svWfFPejbQJb-53" value="&lt;span style=&quot;font-family: &amp;#34;helvetica&amp;#34; ; font-size: 11px&quot;&gt;计时器未关闭，&lt;/span&gt;&lt;font face=&quot;Helvetica&quot;&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;5s倒计时结束，&lt;br&gt;则未对比失败，提示失败&lt;/span&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontFamily=Verdana;fontColor=default;" parent="mEOgrYx-svWfFPejbQJb-1" vertex="1">
+          <mxGeometry x="80" y="1040" width="185" height="20" as="geometry" />
         </mxCell>
         <mxCell id="mEOgrYx-svWfFPejbQJb-54" value="&lt;h1&gt;&lt;br&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="mEOgrYx-svWfFPejbQJb-1" vertex="1">
           <mxGeometry x="510" y="30" width="190" height="120" as="geometry" />
@@ -701,16 +695,10 @@
             <mxPoint x="620" y="140" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="SutCJiev2bX-LbydkIWs-1" value="" style="shape=mxgraph.bpmn.data;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;whiteSpace=wrap;size=13;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="mEOgrYx-svWfFPejbQJb-1" vertex="1">
-          <mxGeometry x="324" y="930" width="180" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="SutCJiev2bX-LbydkIWs-2" value="&lt;font face=&quot;Helvetica&quot; style=&quot;text-align: center&quot;&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;判断&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;font-size: 11px ; text-align: center ; font-family: &amp;#34;helvetica&amp;#34;&quot;&gt;sendChargePlan和返回的chargeList中对应的chargePlanId的chargePlan是否相同&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;whiteSpace=wrap;html=1;" parent="mEOgrYx-svWfFPejbQJb-1" vertex="1">
-          <mxGeometry x="329" y="939" width="175" height="62" as="geometry" />
-        </mxCell>
         <mxCell id="SutCJiev2bX-LbydkIWs-5" value="" style="endArrow=none;html=1;rounded=0;" parent="mEOgrYx-svWfFPejbQJb-1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="250" y="940" as="sourcePoint" />
-            <mxPoint x="320" y="970" as="targetPoint" />
+            <mxPoint x="281" y="940" as="sourcePoint" />
+            <mxPoint x="351" y="970" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="eLWqtT-14wquTbYgU5kR-0" value="" style="endArrow=classic;html=1;rounded=1;sketch=0;fontColor=#095C86;strokeColor=#000000;fillColor=#F694C1;curved=0;entryX=0;entryY=0.948;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.976;exitDx=0;exitDy=0;exitPerimeter=0;" parent="mEOgrYx-svWfFPejbQJb-1" source="mEOgrYx-svWfFPejbQJb-3" edge="1">
@@ -720,7 +708,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="eLWqtT-14wquTbYgU5kR-1" value="&lt;span style=&quot;font-size: 11px ; background-color: rgb(255 , 255 , 255) ; line-height: 1.2&quot;&gt;&lt;font face=&quot;Helvetica&quot; style=&quot;line-height: 1&quot;&gt;unRegister listener removeIChargePlanRxListener&lt;/font&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontFamily=Verdana;fontColor=default;" parent="mEOgrYx-svWfFPejbQJb-1" vertex="1">
-          <mxGeometry x="50" y="1070" width="320" height="25" as="geometry" />
+          <mxGeometry x="70" y="1070" width="320" height="25" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
