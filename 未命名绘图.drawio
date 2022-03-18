@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-18T02:29:39.860Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="LH17QRn1_u1lmi5WyttG" version="17.1.3" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-03-18T02:40:24.301Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="37SS4AfbhF2Hl-e3rt3A" version="17.1.3" type="github" pages="3">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="按时发出">
     <mxGraphModel dx="1426" dy="735" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#FFFFFF" math="0" shadow="0">
       <root>
@@ -674,7 +674,7 @@
         <mxCell id="mEOgrYx-svWfFPejbQJb-64" value="" style="shape=mxgraph.bpmn.data;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;whiteSpace=wrap;size=13;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="mEOgrYx-svWfFPejbQJb-1" vertex="1">
           <mxGeometry x="120" y="410" width="185" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="mEOgrYx-svWfFPejbQJb-66" value="每帧数据发送完，根据标志位needClearChargePlan判断是&lt;br&gt;否比对成功，提前发送完成时，移除其他数据帧，更新标志复位" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;whiteSpace=wrap;html=1;" parent="mEOgrYx-svWfFPejbQJb-1" vertex="1">
+        <mxCell id="mEOgrYx-svWfFPejbQJb-66" value="每帧数据发送完，根据标志位needClearChargePlan判断是&lt;br&gt;否比对成功，提前发送完成时，移除其他数据帧，更新标志复位&lt;br&gt;如i第一帧发送完成收到needClearChargePlan=true，移除第、" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;whiteSpace=wrap;html=1;" parent="mEOgrYx-svWfFPejbQJb-1" vertex="1">
           <mxGeometry x="125" y="429" width="175" height="62" as="geometry" />
         </mxCell>
         <mxCell id="mEOgrYx-svWfFPejbQJb-70" value="" style="endArrow=none;html=1;rounded=0;entryX=0.395;entryY=1.005;entryDx=0;entryDy=0;entryPerimeter=0;" parent="mEOgrYx-svWfFPejbQJb-1" edge="1">
