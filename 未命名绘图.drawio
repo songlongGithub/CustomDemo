@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-05-20T03:35:13.747Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36" etag="kIlsHOPHY74tltpSHsuV" version="17.4.5" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-05-20T03:37:19.506Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36" etag="lGxkPDbgpNRNI0cNohCT" version="17.4.5" type="github" pages="3">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="按时发出">
-    <mxGraphModel dx="946" dy="546" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#FFFFFF" math="0" shadow="0">
+    <mxGraphModel dx="946" dy="489" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#FFFFFF" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -359,7 +359,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="k73rmPaJvsIZFfdMMrzq" name="预约充电">
-    <mxGraphModel dx="946" dy="486" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="946" dy="489" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="mEOgrYx-svWfFPejbQJb-0" />
         <mxCell id="mEOgrYx-svWfFPejbQJb-1" parent="mEOgrYx-svWfFPejbQJb-0" />
@@ -382,7 +382,7 @@
           </mxCell>
         </object>
         <object label="" custom="guaiwuai" placeholders="1" id="mEOgrYx-svWfFPejbQJb-5">
-          <mxCell style="endArrow=classic;html=1;rounded=0;entryX=1.1;entryY=0.928;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#dae8fc;strokeColor=#6c8ebf;dashed=1;" parent="mEOgrYx-svWfFPejbQJb-2" edge="1" target="mEOgrYx-svWfFPejbQJb-3">
+          <mxCell style="endArrow=classic;html=1;rounded=0;entryX=1.1;entryY=0.928;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#dae8fc;strokeColor=#6c8ebf;dashed=1;" parent="mEOgrYx-svWfFPejbQJb-2" target="mEOgrYx-svWfFPejbQJb-3" edge="1">
             <mxGeometry width="50" height="50" relative="1" as="geometry">
               <mxPoint x="55" y="150" as="sourcePoint" />
               <mxPoint x="60" y="970" as="targetPoint" />
@@ -641,16 +641,6 @@
         </object>
         <mxCell id="mEOgrYx-svWfFPejbQJb-50" value="&lt;font face=&quot;Helvetica&quot;&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;match ok，关闭计时器，提示成功&lt;br&gt;&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;font-family: &amp;quot;helvetica&amp;quot; ; font-size: 11px ; background-color: rgb(255 , 255 , 255)&quot;&gt;发送needClearChargePlan=true，用来通知数据对比成功，可移除剩余信号帧&lt;/span&gt;&lt;font face=&quot;Helvetica&quot;&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontFamily=Verdana;fontColor=default;" parent="mEOgrYx-svWfFPejbQJb-1" vertex="1">
           <mxGeometry x="100" y="980" width="210" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="mEOgrYx-svWfFPejbQJb-51" value="" style="curved=1;endArrow=classic;html=1;rounded=1;labelBackgroundColor=#00CCCC;labelBorderColor=#FF00FF;fontColor=default;strokeWidth=1;dashed=1;" parent="mEOgrYx-svWfFPejbQJb-1" target="mEOgrYx-svWfFPejbQJb-40" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="170" y="960" as="sourcePoint" />
-            <mxPoint x="260" y="990" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="170" y="960" />
-              <mxPoint x="220" y="930" />
-            </Array>
-          </mxGeometry>
         </mxCell>
         <mxCell id="mEOgrYx-svWfFPejbQJb-52" value="&lt;font face=&quot;Helvetica&quot;&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;开启5s倒计时，超时检测&lt;/span&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontFamily=Verdana;fontColor=default;" parent="mEOgrYx-svWfFPejbQJb-1" vertex="1">
           <mxGeometry x="70" y="210" width="180" height="20" as="geometry" />
