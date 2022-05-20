@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-20T03:33:56.491Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36" etag="R-HoPL4XfKvu-bNBUwIg" version="17.4.5" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-05-20T03:35:13.747Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36" etag="kIlsHOPHY74tltpSHsuV" version="17.4.5" type="github" pages="3">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="按时发出">
     <mxGraphModel dx="946" dy="546" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#FFFFFF" math="0" shadow="0">
       <root>
@@ -193,7 +193,7 @@
         <mxCell id="We_G-KZyb0YQPLkmT-2E-61" value="&lt;span style=&quot;font-size: 11px ; background-color: rgb(255 , 255 , 255) ; line-height: 1.2&quot;&gt;&lt;font face=&quot;Helvetica&quot; style=&quot;line-height: 1&quot;&gt;saveDepartAndComforts(DepartComfortsRqStrategy(id=1)) chrgGoTUpdateRq=true&lt;/font&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontFamily=Verdana;fontColor=default;" parent="1" vertex="1">
           <mxGeometry x="400" y="258" width="350" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="We_G-KZyb0YQPLkmT-2E-74" value="&lt;span style=&quot;font-size: 11px ; background-color: rgb(255 , 255 , 255) ; line-height: 1.2&quot;&gt;&lt;font face=&quot;Helvetica&quot; style=&quot;line-height: 1&quot;&gt;delay 1200ms&lt;/font&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontFamily=Verdana;fontColor=default;" parent="1" vertex="1">
+        <mxCell id="We_G-KZyb0YQPLkmT-2E-74" value="&lt;span style=&quot;font-size: 11px ; background-color: rgb(255 , 255 , 255) ; line-height: 1.2&quot;&gt;&lt;font face=&quot;Helvetica&quot; style=&quot;line-height: 1&quot;&gt;delay 800ms&lt;/font&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontFamily=Verdana;fontColor=default;" parent="1" vertex="1">
           <mxGeometry x="413" y="297.38" width="80" height="21.25" as="geometry" />
         </mxCell>
         <mxCell id="u33PJABIVeBGlyHbXben-2" value="&lt;span style=&quot;font-size: 11px ; background-color: rgb(255 , 255 , 255) ; line-height: 1.2&quot;&gt;&lt;font face=&quot;Helvetica&quot; style=&quot;line-height: 1&quot;&gt;needClearDepartTime = false，未收到匹配成功标志位&lt;/font&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontFamily=Verdana;fontColor=default;" parent="1" vertex="1">
@@ -208,7 +208,7 @@
             <mxPoint x="785" y="447.80000000000007" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="u33PJABIVeBGlyHbXben-7" value="&lt;span style=&quot;font-size: 11px ; background-color: rgb(255 , 255 , 255) ; line-height: 1.2&quot;&gt;&lt;font face=&quot;Helvetica&quot; style=&quot;line-height: 1&quot;&gt;delay 1200ms&lt;/font&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontFamily=Verdana;fontColor=default;" parent="1" vertex="1">
+        <mxCell id="u33PJABIVeBGlyHbXben-7" value="&lt;span style=&quot;font-size: 11px ; background-color: rgb(255 , 255 , 255) ; line-height: 1.2&quot;&gt;&lt;font face=&quot;Helvetica&quot; style=&quot;line-height: 1&quot;&gt;delay 800ms&lt;/font&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontFamily=Verdana;fontColor=default;" parent="1" vertex="1">
           <mxGeometry x="414" y="458" width="80" height="21.25" as="geometry" />
         </mxCell>
         <mxCell id="u33PJABIVeBGlyHbXben-10" value="&lt;span style=&quot;font-size: 11px ; background-color: rgb(255 , 255 , 255) ; line-height: 1.2&quot;&gt;&lt;font face=&quot;Helvetica&quot; style=&quot;line-height: 1&quot;&gt;needClearDepartTime = false，未收到匹配成功标志位&lt;/font&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontFamily=Verdana;fontColor=default;" parent="1" vertex="1">
@@ -223,7 +223,7 @@
             <mxPoint x="787.7099999999996" y="625.0000000000002" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="u33PJABIVeBGlyHbXben-14" value="&lt;span style=&quot;font-size: 11px ; background-color: rgb(255 , 255 , 255) ; line-height: 1.2&quot;&gt;&lt;font face=&quot;Helvetica&quot; style=&quot;line-height: 1&quot;&gt;delay 1200ms&lt;/font&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontFamily=Verdana;fontColor=default;" parent="1" vertex="1">
+        <mxCell id="u33PJABIVeBGlyHbXben-14" value="&lt;span style=&quot;font-size: 11px ; background-color: rgb(255 , 255 , 255) ; line-height: 1.2&quot;&gt;&lt;font face=&quot;Helvetica&quot; style=&quot;line-height: 1&quot;&gt;delay 800ms&lt;/font&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontFamily=Verdana;fontColor=default;" parent="1" vertex="1">
           <mxGeometry x="414" y="635" width="80" height="21.25" as="geometry" />
         </mxCell>
         <mxCell id="u33PJABIVeBGlyHbXben-16" value="&lt;span style=&quot;font-size: 11px ; background-color: rgb(255 , 255 , 255) ; line-height: 1.2&quot;&gt;&lt;font face=&quot;Helvetica&quot; style=&quot;line-height: 1&quot;&gt;saveDepartAndComforts(ClearDepartComfortStrategy)&amp;nbsp;&amp;nbsp;&lt;br&gt;chrgGoTUpdateRq=false&lt;br&gt;&lt;/font&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontFamily=Verdana;fontColor=default;" parent="1" vertex="1">
