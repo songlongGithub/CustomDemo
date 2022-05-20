@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-20T03:33:27.192Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36" etag="Zy6udT0irt4HLiF67tLF" version="17.4.5" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-05-20T03:33:56.491Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36" etag="R-HoPL4XfKvu-bNBUwIg" version="17.4.5" type="github" pages="3">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="按时发出">
     <mxGraphModel dx="946" dy="546" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#FFFFFF" math="0" shadow="0">
       <root>
@@ -293,7 +293,7 @@
           <mxGeometry x="40" y="215" width="180" height="20" as="geometry" />
         </mxCell>
         <mxCell id="u33PJABIVeBGlyHbXben-54" value="&lt;font face=&quot;Helvetica&quot;&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;5s结束，未对比成功，提示失败，提前比对成功设置&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;font-family: &amp;#34;helvetica&amp;#34; ; font-size: 11px ; background-color: rgb(255 , 255 , 255)&quot;&gt;needClearDepartTime = true，触发&lt;/span&gt;&lt;span style=&quot;font-family: &amp;#34;helvetica&amp;#34; ; font-size: 11px ; background-color: rgb(255 , 255 , 255)&quot;&gt;chrgGoTUpdateRq=false&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontFamily=Verdana;fontColor=default;" parent="1" vertex="1">
-          <mxGeometry x="70" y="1025" width="320" height="35" as="geometry" />
+          <mxGeometry x="70" y="1025" width="480" height="35" as="geometry" />
         </mxCell>
         <mxCell id="oxVtvyuFJJ44SYQJUMJw-1" value="&lt;h1&gt;&lt;br&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="510" y="30" width="190" height="120" as="geometry" />
