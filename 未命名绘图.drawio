@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-28T13:42:42.706Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="lxcCbSh0nt2fp3CKMQEL" version="20.6.0" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2022-11-28T13:44:35.847Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="PC-AGFMDXaTXTbC1VOxG" version="20.6.0" type="github" pages="7">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="按时发出">
     <mxGraphModel dx="946" dy="537" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#FFFFFF" math="0" shadow="0">
       <root>
@@ -1764,7 +1764,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="h-jxDa5Dqth9UbFOc32z-29" value="查询当前信号是否发送NULL" style="rhombus;whiteSpace=wrap;html=1;fontSize=15;fontColor=#ffffff;fillColor=#60a917;strokeColor=#2D7600;" vertex="1" parent="1">
-          <mxGeometry x="153.5" y="740" width="142.5" height="100" as="geometry" />
+          <mxGeometry x="153.5" y="740" width="146.5" height="100" as="geometry" />
         </mxCell>
         <mxCell id="FkOjjLUGYmDLyHnWSSq0-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#2D7600;fontSize=15;fontColor=#000000;fillColor=#60a917;" edge="1" parent="1" source="h-jxDa5Dqth9UbFOc32z-35" target="FkOjjLUGYmDLyHnWSSq0-21">
           <mxGeometry relative="1" as="geometry" />
