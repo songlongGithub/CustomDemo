@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-28T12:49:17.757Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="Pd8MS6xrpMuTRw3YDtN-" version="20.6.0" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2022-11-28T12:56:13.828Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="Y7nfaMFXf1967Q8LBQYg" version="20.6.0" type="github" pages="7">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="按时发出">
     <mxGraphModel dx="946" dy="537" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#FFFFFF" math="0" shadow="0">
       <root>
@@ -1766,6 +1766,9 @@
         <mxCell id="h-jxDa5Dqth9UbFOc32z-29" value="查询当前信号是否发送NULL" style="rhombus;whiteSpace=wrap;html=1;fontSize=15;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="153.5" y="740" width="142.5" height="100" as="geometry" />
         </mxCell>
+        <mxCell id="FkOjjLUGYmDLyHnWSSq0-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;fontSize=15;fontColor=#000000;" edge="1" parent="1" source="h-jxDa5Dqth9UbFOc32z-35" target="FkOjjLUGYmDLyHnWSSq0-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="h-jxDa5Dqth9UbFOc32z-35" value="查询当前信号类型和时间，delay 1s后发送对应类型的Null信号" style="whiteSpace=wrap;html=1;fontSize=15;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="-30" y="751.75" width="120" height="76.5" as="geometry" />
         </mxCell>
@@ -1784,6 +1787,9 @@
         <mxCell id="FkOjjLUGYmDLyHnWSSq0-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;fontSize=15;fontColor=#000000;" edge="1" parent="1" source="FkOjjLUGYmDLyHnWSSq0-1" target="FkOjjLUGYmDLyHnWSSq0-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="FkOjjLUGYmDLyHnWSSq0-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;fontSize=15;fontColor=#000000;" edge="1" parent="1" source="FkOjjLUGYmDLyHnWSSq0-1" target="FkOjjLUGYmDLyHnWSSq0-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="FkOjjLUGYmDLyHnWSSq0-1" value="创建过程是否&lt;br&gt;退出" style="rhombus;whiteSpace=wrap;html=1;fontSize=15;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="360" y="736" width="130" height="108.25" as="geometry" />
         </mxCell>
@@ -1791,13 +1797,28 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="FkOjjLUGYmDLyHnWSSq0-5" value="发送ExitButton信号" style="whiteSpace=wrap;html=1;fontSize=15;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="530" y="760.12" width="120" height="59.88" as="geometry" />
+          <mxGeometry x="533" y="760.12" width="120" height="59.88" as="geometry" />
         </mxCell>
         <mxCell id="FkOjjLUGYmDLyHnWSSq0-7" value="是" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="292" y="748" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="FkOjjLUGYmDLyHnWSSq0-8" value="发送完成" style="whiteSpace=wrap;html=1;fontSize=15;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="531" y="890" width="120" height="60" as="geometry" />
+        <mxCell id="FkOjjLUGYmDLyHnWSSq0-8" value="处理完成" style="whiteSpace=wrap;html=1;fontSize=15;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="532" y="888" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FkOjjLUGYmDLyHnWSSq0-15" value="是" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="86" y="600" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FkOjjLUGYmDLyHnWSSq0-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeColor=#000000;fontSize=15;fontColor=#000000;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="91" y="924.88" as="sourcePoint" />
+            <mxPoint x="360" y="797.0049999999998" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="360" y="916.88" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FkOjjLUGYmDLyHnWSSq0-21" value="发送完成" style="whiteSpace=wrap;html=1;fontSize=15;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="-29" y="888" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
