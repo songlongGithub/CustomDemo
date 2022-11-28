@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-28T12:56:13.828Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="Y7nfaMFXf1967Q8LBQYg" version="20.6.0" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2022-11-28T12:57:03.360Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="XH9bGUVjYdJdaOjrNwx_" version="20.6.0" type="github" pages="7">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="按时发出">
     <mxGraphModel dx="946" dy="537" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#FFFFFF" math="0" shadow="0">
       <root>
@@ -1819,6 +1819,9 @@
         </mxCell>
         <mxCell id="FkOjjLUGYmDLyHnWSSq0-21" value="发送完成" style="whiteSpace=wrap;html=1;fontSize=15;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="-29" y="888" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FkOjjLUGYmDLyHnWSSq0-27" value="是" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="420" y="858" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
