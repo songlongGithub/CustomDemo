@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-28T12:46:20.385Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="MvWk-adi6kSHGjv3refd" version="20.6.0" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2022-11-28T12:49:17.757Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="Pd8MS6xrpMuTRw3YDtN-" version="20.6.0" type="github" pages="7">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="按时发出">
     <mxGraphModel dx="946" dy="537" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#FFFFFF" math="0" shadow="0">
       <root>
@@ -1784,7 +1784,7 @@
         <mxCell id="FkOjjLUGYmDLyHnWSSq0-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;fontSize=15;fontColor=#000000;" edge="1" parent="1" source="FkOjjLUGYmDLyHnWSSq0-1" target="FkOjjLUGYmDLyHnWSSq0-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="FkOjjLUGYmDLyHnWSSq0-1" value="是否发送ExitButton信号" style="rhombus;whiteSpace=wrap;html=1;fontSize=15;fontColor=#000000;" vertex="1" parent="1">
+        <mxCell id="FkOjjLUGYmDLyHnWSSq0-1" value="创建过程是否&lt;br&gt;退出" style="rhombus;whiteSpace=wrap;html=1;fontSize=15;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="360" y="736" width="130" height="108.25" as="geometry" />
         </mxCell>
         <mxCell id="FkOjjLUGYmDLyHnWSSq0-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;fontSize=15;fontColor=#000000;" edge="1" parent="1" source="FkOjjLUGYmDLyHnWSSq0-5" target="FkOjjLUGYmDLyHnWSSq0-8">
