@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-21T06:44:24.842Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="L-qjDKIEou1kzH04zhea" version="20.6.2" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2022-12-21T06:44:33.335Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="LmC4ql-e9m2YsDGGu6sJ" version="20.6.2" type="github" pages="9">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="按时发出">
     <mxGraphModel dx="946" dy="537" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#FFFFFF" math="0" shadow="0">
       <root>
@@ -1406,17 +1406,6 @@
         </mxCell>
         <mxCell id="19nW5_MozJIekMToLDYM-25" value="用户点击个性化档案入口" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="840" y="325" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="19nW5_MozJIekMToLDYM-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="19nW5_MozJIekMToLDYM-29">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="920" y="400" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="19nW5_MozJIekMToLDYM-29" value="正常显示档案界面" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="860" y="495" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="19nW5_MozJIekMToLDYM-31" value="是" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="930" y="430" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="19nW5_MozJIekMToLDYM-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="19nW5_MozJIekMToLDYM-35" target="19nW5_MozJIekMToLDYM-40">
           <mxGeometry relative="1" as="geometry" />
