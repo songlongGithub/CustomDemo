@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-21T06:42:48.708Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="hzSD_8BLObgMIvH1_EmE" version="20.6.2" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2022-12-21T06:44:19.660Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="2FnATCsujGiHtz6JbNkr" version="20.6.2" type="github" pages="9">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="按时发出">
     <mxGraphModel dx="946" dy="537" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#FFFFFF" math="0" shadow="0">
       <root>
@@ -1401,20 +1401,16 @@
         <mxCell id="19nW5_MozJIekMToLDYM-24" value="此时存在用户启动后车机在PersX，IVI在访客档案的情况" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="600" y="350" width="120" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="19nW5_MozJIekMToLDYM-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="19nW5_MozJIekMToLDYM-25" target="19nW5_MozJIekMToLDYM-27">
+        <mxCell id="19nW5_MozJIekMToLDYM-48" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=20;fontColor=#FF0000;" edge="1" parent="1" source="19nW5_MozJIekMToLDYM-25" target="19nW5_MozJIekMToLDYM-35">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="19nW5_MozJIekMToLDYM-25" value="用户点击个性化档案入口" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="860" y="180" width="120" height="60" as="geometry" />
+          <mxGeometry x="840" y="325" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="19nW5_MozJIekMToLDYM-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="19nW5_MozJIekMToLDYM-27" target="19nW5_MozJIekMToLDYM-29">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="19nW5_MozJIekMToLDYM-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="19nW5_MozJIekMToLDYM-27" target="19nW5_MozJIekMToLDYM-35">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="19nW5_MozJIekMToLDYM-27" value="开机是否&lt;br&gt;调用过档案" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="875" y="310" width="90" height="90" as="geometry" />
+        <mxCell id="19nW5_MozJIekMToLDYM-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="19nW5_MozJIekMToLDYM-29">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="920" y="400" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="19nW5_MozJIekMToLDYM-29" value="正常显示档案界面" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="860" y="495" width="120" height="60" as="geometry" />
@@ -1427,9 +1423,6 @@
         </mxCell>
         <mxCell id="19nW5_MozJIekMToLDYM-35" value="调用车机Active PersIndex对应的档案" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1030" y="325" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="19nW5_MozJIekMToLDYM-37" value="否" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="960" y="320" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="19nW5_MozJIekMToLDYM-40" value="sendInfotainmentRecall_Rq" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1230" y="323" width="150" height="65" as="geometry" />
