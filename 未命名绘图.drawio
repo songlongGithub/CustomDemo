@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-21T03:42:35.797Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="4ZmxYXa4lA9YC71XPRsz" version="20.6.2" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2022-12-21T06:42:48.708Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="hzSD_8BLObgMIvH1_EmE" version="20.6.2" type="github" pages="9">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="按时发出">
     <mxGraphModel dx="946" dy="537" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#FFFFFF" math="0" shadow="0">
       <root>
@@ -1338,10 +1338,16 @@
     </mxGraphModel>
   </diagram>
   <diagram id="xUWetAjP7nxevvs9zWOH" name="第 9 页">
-    <mxGraphModel dx="1577" dy="895" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1351" dy="767" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="19nW5_MozJIekMToLDYM-44" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="20" width="600" height="900" as="geometry" />
+        </mxCell>
+        <mxCell id="19nW5_MozJIekMToLDYM-46" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fontSize=20;fontColor=#FF0000;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="800" y="20" width="680" height="700" as="geometry" />
+        </mxCell>
         <mxCell id="19nW5_MozJIekMToLDYM-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="19nW5_MozJIekMToLDYM-1" target="19nW5_MozJIekMToLDYM-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -1431,14 +1437,8 @@
         <mxCell id="19nW5_MozJIekMToLDYM-42" value="sendInfotainmentRecall_Rq" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="314" y="790" width="150" height="65" as="geometry" />
         </mxCell>
-        <mxCell id="19nW5_MozJIekMToLDYM-44" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="160" y="20" width="600" height="900" as="geometry" />
-        </mxCell>
         <mxCell id="19nW5_MozJIekMToLDYM-45" value="&lt;font color=&quot;#ff0000&quot; style=&quot;font-size: 20px;&quot;&gt;用户首次上车&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="570" y="30" width="150" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="19nW5_MozJIekMToLDYM-46" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fontSize=20;fontColor=#FF0000;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="800" y="20" width="680" height="700" as="geometry" />
         </mxCell>
         <mxCell id="19nW5_MozJIekMToLDYM-47" value="&lt;font color=&quot;#ff0000&quot; style=&quot;font-size: 20px;&quot;&gt;用户点击个性化档案入口&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="1260" y="50" width="150" height="50" as="geometry" />
