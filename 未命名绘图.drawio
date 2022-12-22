@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-22T08:46:06.751Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="pO8naYevTiDYOOldrDRW" version="20.7.4" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2022-12-22T09:18:59.303Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="cyo2mfl2D-yAddnx3GMk" version="20.7.4" type="github" pages="9">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="按时发出">
     <mxGraphModel dx="954" dy="539" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#FFFFFF" math="0" shadow="0">
       <root>
@@ -1412,8 +1412,14 @@
         <mxCell id="uPtynkEJ3JYyiVlJqgbB-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uPtynkEJ3JYyiVlJqgbB-3" target="uPtynkEJ3JYyiVlJqgbB-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="uPtynkEJ3JYyiVlJqgbB-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;fontColor=#000000;" edge="1" parent="1" source="uPtynkEJ3JYyiVlJqgbB-3" target="uPtynkEJ3JYyiVlJqgbB-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="uPtynkEJ3JYyiVlJqgbB-3" value="车机ActicvePersIndex和&lt;br&gt;IVI档案PersIndex&lt;br&gt;是否一致" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1005" y="210" width="170" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="uPtynkEJ3JYyiVlJqgbB-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;fontColor=#000000;" edge="1" parent="1" source="uPtynkEJ3JYyiVlJqgbB-4" target="uPtynkEJ3JYyiVlJqgbB-25">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="uPtynkEJ3JYyiVlJqgbB-4" value="&lt;pre style=&quot;font-family: Menlo, monospace;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;sendInfotainmentRecallRq（PersX）&lt;/font&gt;&lt;/pre&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="941" y="465" width="300" height="95" as="geometry" />
@@ -1450,6 +1456,21 @@
         </mxCell>
         <mxCell id="uPtynkEJ3JYyiVlJqgbB-23" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;否&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1100" y="390" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uPtynkEJ3JYyiVlJqgbB-25" value="车辆ActivePersIndex和IVI档案保持一致" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1031" y="657.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uPtynkEJ3JYyiVlJqgbB-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=16;fontColor=#000000;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1348" y="315" as="sourcePoint" />
+            <mxPoint x="1239" y="512.5" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1348" y="512" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uPtynkEJ3JYyiVlJqgbB-27" value="回到ActivePersIndex 座椅位置" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1280" y="255" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
