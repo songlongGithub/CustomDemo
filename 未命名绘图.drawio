@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-18T05:02:13.284Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="Cc5Ww6YJFsaQKYR3a1ci" version="20.8.4" type="github" pages="10">
+<mxfile host="app.diagrams.net" modified="2023-01-18T05:03:20.245Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="VSPaZz_V6DUKLu0U4OF9" version="20.8.4" type="github" pages="10">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="按时发出">
     <mxGraphModel dx="954" dy="539" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#FFFFFF" math="0" shadow="0">
       <root>
@@ -1479,7 +1479,7 @@
         <mxCell id="iOpvzZDsWvJ_J2EmplKC-18" value="&lt;font color=&quot;#2d7600&quot;&gt;NULL信号&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="430" y="334.5" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="iOpvzZDsWvJ_J2EmplKC-19" value="NULL因间隔&amp;lt;1s被忽略" style="shape=card;whiteSpace=wrap;html=1;direction=south;size=20;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;" vertex="1" parent="1">
+        <mxCell id="iOpvzZDsWvJ_J2EmplKC-19" value="NULL因间隔&amp;lt;1s可能被忽略" style="shape=card;whiteSpace=wrap;html=1;direction=south;size=20;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="390" y="360" width="160" height="40" as="geometry" />
         </mxCell>
         <mxCell id="iOpvzZDsWvJ_J2EmplKC-20" value="Ford DSM" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="1">
