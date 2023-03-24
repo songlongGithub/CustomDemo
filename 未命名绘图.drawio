@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-24T11:58:52.458Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="-s0cnxAfvwsDNExIYF9b" version="20.8.23" type="github" pages="12">
+<mxfile host="app.diagrams.net" modified="2023-03-24T12:03:47.597Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="scSxMgmPQJ-hy-ESHHjG" version="20.8.23" type="github" pages="12">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="按时发出">
     <mxGraphModel dx="954" dy="557" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#FFFFFF" math="0" shadow="0">
       <root>
@@ -2557,7 +2557,7 @@
           <mxGeometry x="43" y="1119" width="727" height="112" as="geometry" />
         </mxCell>
         <mxCell id="Atw-BM06O8e9WqC_xxj8-11" value="[If VoiceDetetionMode is VAD ]" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#0000FF;" vertex="1" parent="1">
-          <mxGeometry x="286.5" y="1138" width="174" height="24" as="geometry" />
+          <mxGeometry x="286.5" y="1129" width="174" height="24" as="geometry" />
         </mxCell>
         <object label="" custom="guaiwuai" placeholders="1" id="Atw-BM06O8e9WqC_xxj8-12">
           <mxCell style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
