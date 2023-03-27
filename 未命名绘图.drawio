@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-27T09:47:59.369Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="_i8NvI6SiacQLqGcFsJy" version="21.1.0" type="github" pages="13">
+<mxfile host="app.diagrams.net" modified="2023-03-27T09:51:44.098Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="G1hUPZgqX7b8I_IhpXDq" version="21.1.0" type="github" pages="13">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="按时发出">
     <mxGraphModel dx="1434" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#FFFFFF" math="0" shadow="0">
       <root>
@@ -2333,7 +2333,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="QH5AIte2mTkFwpQlejRY" name="carplay连接">
-    <mxGraphModel dx="2606" dy="1106" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2206" dy="1106" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2407,12 +2407,12 @@
           <mxGeometry x="180" y="206" width="230" height="27.05" as="geometry" />
         </mxCell>
         <mxCell id="QSWdLu9u_nrdBKc0LcZn-1" value="User" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-147" y="14" width="120" height="60" as="geometry" />
+          <mxGeometry x="668" y="14" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="QSWdLu9u_nrdBKc0LcZn-2" value="" style="endArrow=none;html=1;rounded=0;" parent="1" target="QSWdLu9u_nrdBKc0LcZn-1" edge="1">
+        <mxCell id="QSWdLu9u_nrdBKc0LcZn-2" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-87.76999999999998" y="942" as="sourcePoint" />
-            <mxPoint x="-87.76999999999998" y="74" as="targetPoint" />
+            <mxPoint x="726.23" y="942" as="sourcePoint" />
+            <mxPoint x="726.9742761692651" y="74" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="aoDzAfEpkeZqiWD-2G9z-1" value="" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=0.003;exitY=0.492;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="Atw-BM06O8e9WqC_xxj8-2" edge="1">
@@ -2547,11 +2547,20 @@
         <mxCell id="ZaxyuIPTMWgmEZbDDkql-8" value="enter carplay mode" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="199.5" y="335" width="131" height="38" as="geometry" />
         </mxCell>
+        <mxCell id="zFhTuHkOTSzL4vt6Pb0y-1" value="" style="endArrow=none;html=1;rounded=0;startArrow=classic;startFill=1;endFill=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="500" y="108.46000000000001" as="sourcePoint" />
+            <mxPoint x="726" y="108" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zFhTuHkOTSzL4vt6Pb0y-2" value="Iphone connected" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="545" y="80" width="120" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="UAUPuYmJAXQHoVd1Zh8S" name="carplay软硬按键">
-    <mxGraphModel dx="3217" dy="1198" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2790" dy="398" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
