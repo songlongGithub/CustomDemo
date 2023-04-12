@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-03-28T07:30:29.079Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="nCCuAHwkTNIvJXxplR8H" version="21.1.0" type="github" pages="14">
+<mxfile host="app.diagrams.net" modified="2023-04-12T11:24:37.072Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="R1rtcOXCVsIa2iNrKd9K" version="21.1.5" type="github" pages="13">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="按时发出">
-    <mxGraphModel dx="1434" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#FFFFFF" math="0" shadow="0">
+    <mxGraphModel dx="954" dy="539" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#FFFFFF" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2333,7 +2333,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="QH5AIte2mTkFwpQlejRY" name="carplay连接">
-    <mxGraphModel dx="2206" dy="1106" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1593" dy="882" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2385,26 +2385,17 @@
         <object label="" custom="guaiwuai" placeholders="1" id="GrB73mnI2o_Jio33jc4v-9">
           <mxCell style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
             <mxGeometry width="50" height="50" relative="1" as="geometry">
-              <mxPoint x="500" y="278" as="sourcePoint" />
-              <mxPoint x="500" y="298" as="targetPoint" />
+              <mxPoint x="500" y="281" as="sourcePoint" />
+              <mxPoint x="500" y="301" as="targetPoint" />
               <Array as="points">
-                <mxPoint x="540" y="278" />
-                <mxPoint x="540" y="298" />
+                <mxPoint x="540" y="281" />
+                <mxPoint x="540" y="301" />
               </Array>
             </mxGeometry>
           </mxCell>
         </object>
         <mxCell id="GrB73mnI2o_Jio33jc4v-10" value="carplay connected" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="492" y="243" width="131" height="38" as="geometry" />
-        </mxCell>
-        <mxCell id="GrB73mnI2o_Jio33jc4v-30" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="204" y="237.05" as="sourcePoint" />
-            <mxPoint x="499" y="237.05" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="GrB73mnI2o_Jio33jc4v-31" value="send recording data to Carplay" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="180" y="206" width="230" height="27.05" as="geometry" />
+          <mxGeometry x="490" y="247" width="131" height="38" as="geometry" />
         </mxCell>
         <mxCell id="QSWdLu9u_nrdBKc0LcZn-1" value="User" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="668" y="14" width="120" height="60" as="geometry" />
@@ -2533,7 +2524,7 @@
           </mxGeometry>
         </mxCell>
         <object label="" custom="guaiwuai" placeholders="1" id="ZaxyuIPTMWgmEZbDDkql-7">
-          <mxCell style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxCell style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
             <mxGeometry width="50" height="50" relative="1" as="geometry">
               <mxPoint x="205" y="368" as="sourcePoint" />
               <mxPoint x="205" y="388" as="targetPoint" />
@@ -2544,55 +2535,67 @@
             </mxGeometry>
           </mxCell>
         </object>
-        <mxCell id="ZaxyuIPTMWgmEZbDDkql-8" value="enter carplay mode" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="ZaxyuIPTMWgmEZbDDkql-8" value="enter carplay mode" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="199.5" y="335" width="131" height="38" as="geometry" />
         </mxCell>
-        <mxCell id="zFhTuHkOTSzL4vt6Pb0y-1" value="" style="endArrow=none;html=1;rounded=0;startArrow=classic;startFill=1;endFill=0;" edge="1" parent="1">
+        <mxCell id="zFhTuHkOTSzL4vt6Pb0y-1" value="" style="endArrow=none;html=1;rounded=0;startArrow=classic;startFill=1;endFill=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="500" y="108.46000000000001" as="sourcePoint" />
             <mxPoint x="726" y="108" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="zFhTuHkOTSzL4vt6Pb0y-2" value="Iphone connected" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="zFhTuHkOTSzL4vt6Pb0y-2" value="Iphone connected" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="545" y="80" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0I74_UJAUnos7ur585rz-1" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="204" y="237.05" as="sourcePoint" />
+            <mxPoint x="499" y="237.05" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0I74_UJAUnos7ur585rz-2" value="send recording data to Carplay" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="180" y="206" width="230" height="27.05" as="geometry" />
+        </mxCell>
+        <mxCell id="0I74_UJAUnos7ur585rz-3" value="Loop" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;strokeWidth=2;strokeColor=#0000FF;" vertex="1" parent="1">
+          <mxGeometry x="79" y="200" width="602" height="52" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="UAUPuYmJAXQHoVd1Zh8S" name="carplay软硬按键">
-    <mxGraphModel dx="1647" dy="-175" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1354" dy="-261" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="zU5N_gT2rfe9PYO2KSR_-1" value="" style="endArrow=open;html=1;rounded=0;fontColor=#3333FF;endFill=0;endSize=13;" edge="1" parent="1">
+        <mxCell id="zU5N_gT2rfe9PYO2KSR_-1" value="" style="endArrow=open;html=1;rounded=0;fontColor=#3333FF;endFill=0;endSize=13;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-99" y="1256" as="sourcePoint" />
             <mxPoint x="193" y="1256" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="zU5N_gT2rfe9PYO2KSR_-2" value="Input()" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#3333FF;" vertex="1" parent="1">
+        <mxCell id="zU5N_gT2rfe9PYO2KSR_-2" value="Input()" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#3333FF;" parent="1" vertex="1">
           <mxGeometry x="-2" y="1227" width="80" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="zU5N_gT2rfe9PYO2KSR_-3" value="&lt;font style=&quot;background-color: rgb(255, 255, 255);&quot; color=&quot;#0000ff&quot;&gt;alt&lt;/font&gt;" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;rounded=0;shadow=0;labelBackgroundColor=#D4E1F5;sketch=0;strokeWidth=2;fontColor=#ffffff;fillColor=none;strokeColor=#0000FF;" vertex="1" parent="1">
+        <mxCell id="zU5N_gT2rfe9PYO2KSR_-3" value="&lt;font style=&quot;background-color: rgb(255, 255, 255);&quot; color=&quot;#0000ff&quot;&gt;alt&lt;/font&gt;" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;rounded=0;shadow=0;labelBackgroundColor=#D4E1F5;sketch=0;strokeWidth=2;fontColor=#ffffff;fillColor=none;strokeColor=#0000FF;" parent="1" vertex="1">
           <mxGeometry x="3" y="1331" width="786" height="771" as="geometry" />
         </mxCell>
-        <mxCell id="zU5N_gT2rfe9PYO2KSR_-4" value="[If Hard key is Pressed]" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#0000FF;" vertex="1" parent="1">
+        <mxCell id="zU5N_gT2rfe9PYO2KSR_-4" value="[If Hard key is Pressed]" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#0000FF;" parent="1" vertex="1">
           <mxGeometry x="295" y="1334" width="143" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="zU5N_gT2rfe9PYO2KSR_-5" value="alt" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;rounded=0;shadow=0;labelBackgroundColor=none;sketch=0;strokeWidth=2;fontColor=#0000FF;fillColor=none;gradientColor=none;strokeColor=#0000FF;" vertex="1" parent="1">
+        <mxCell id="zU5N_gT2rfe9PYO2KSR_-5" value="alt" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;rounded=0;shadow=0;labelBackgroundColor=none;sketch=0;strokeWidth=2;fontColor=#0000FF;fillColor=none;gradientColor=none;strokeColor=#0000FF;" parent="1" vertex="1">
           <mxGeometry x="17" y="1378" width="761" height="467" as="geometry" />
         </mxCell>
-        <mxCell id="zU5N_gT2rfe9PYO2KSR_-6" value="[If Hard key is short press]" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#0000FF;" vertex="1" parent="1">
+        <mxCell id="zU5N_gT2rfe9PYO2KSR_-6" value="[If Hard key is short press]" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#0000FF;" parent="1" vertex="1">
           <mxGeometry x="285" y="1386" width="153" height="24" as="geometry" />
         </mxCell>
-        <mxCell id="zU5N_gT2rfe9PYO2KSR_-7" value="opt" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;rounded=0;shadow=0;labelBackgroundColor=none;sketch=0;strokeWidth=2;fontColor=#0000FF;fillColor=none;gradientColor=none;strokeColor=#0000FF;" vertex="1" parent="1">
+        <mxCell id="zU5N_gT2rfe9PYO2KSR_-7" value="opt" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;rounded=0;shadow=0;labelBackgroundColor=none;sketch=0;strokeWidth=2;fontColor=#0000FF;fillColor=none;gradientColor=none;strokeColor=#0000FF;" parent="1" vertex="1">
           <mxGeometry x="31" y="1428" width="732" height="113" as="geometry" />
         </mxCell>
-        <mxCell id="zU5N_gT2rfe9PYO2KSR_-8" value="[If VoiceDetetionMode is VAD ]" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#0000FF;" vertex="1" parent="1">
+        <mxCell id="zU5N_gT2rfe9PYO2KSR_-8" value="[If VoiceDetetionMode is VAD ]" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#0000FF;" parent="1" vertex="1">
           <mxGeometry x="274.5" y="1437" width="174" height="24" as="geometry" />
         </mxCell>
         <object label="" custom="guaiwuai" placeholders="1" id="zU5N_gT2rfe9PYO2KSR_-9">
-          <mxCell style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxCell style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
             <mxGeometry width="50" height="50" relative="1" as="geometry">
               <mxPoint x="193" y="1507" as="sourcePoint" />
               <mxPoint x="193" y="1527" as="targetPoint" />
@@ -2603,11 +2606,11 @@
             </mxGeometry>
           </mxCell>
         </object>
-        <mxCell id="zU5N_gT2rfe9PYO2KSR_-10" value="exitAsr" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#000000;" vertex="1" parent="1">
+        <mxCell id="zU5N_gT2rfe9PYO2KSR_-10" value="exitAsr" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="193" y="1479" width="49" height="24" as="geometry" />
         </mxCell>
         <object label="" custom="guaiwuai" placeholders="1" id="zU5N_gT2rfe9PYO2KSR_-11">
-          <mxCell style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxCell style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
             <mxGeometry width="50" height="50" relative="1" as="geometry">
               <mxPoint x="193" y="1569" as="sourcePoint" />
               <mxPoint x="193" y="1589" as="targetPoint" />
@@ -2618,29 +2621,29 @@
             </mxGeometry>
           </mxCell>
         </object>
-        <mxCell id="zU5N_gT2rfe9PYO2KSR_-12" value="VAD模式下asr decoder = 6，启动本地语音asr需要先退出VAD识别" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;rounded=0;shadow=0;sketch=0;fillColor=#ffffcf;strokeColor=#d6b656;size=14;" vertex="1" parent="1">
+        <mxCell id="zU5N_gT2rfe9PYO2KSR_-12" value="VAD模式下asr decoder = 6，启动本地语音asr需要先退出VAD识别" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;rounded=0;shadow=0;sketch=0;fillColor=#ffffcf;strokeColor=#d6b656;size=14;" parent="1" vertex="1">
           <mxGeometry x="269" y="1486" width="185" height="48" as="geometry" />
         </mxCell>
-        <mxCell id="zU5N_gT2rfe9PYO2KSR_-13" value="" style="endArrow=none;html=1;rounded=0;fontColor=#0000FF;" edge="1" parent="1">
+        <mxCell id="zU5N_gT2rfe9PYO2KSR_-13" value="" style="endArrow=none;html=1;rounded=0;fontColor=#0000FF;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="235" y="1492" as="sourcePoint" />
             <mxPoint x="269" y="1514" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="zU5N_gT2rfe9PYO2KSR_-14" value="startAsr" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#000000;" vertex="1" parent="1">
+        <mxCell id="zU5N_gT2rfe9PYO2KSR_-14" value="startAsr" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="193" y="1543" width="56" height="24" as="geometry" />
         </mxCell>
-        <mxCell id="zU5N_gT2rfe9PYO2KSR_-15" value="" style="endArrow=none;dashed=1;html=1;rounded=0;fontColor=#0000FF;entryX=1;entryY=0.671;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.003;exitY=0.671;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+        <mxCell id="zU5N_gT2rfe9PYO2KSR_-15" value="" style="endArrow=none;dashed=1;html=1;rounded=0;fontColor=#0000FF;entryX=1;entryY=0.671;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.003;exitY=0.671;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="19.286000000000058" y="1607.413" as="sourcePoint" />
             <mxPoint x="779" y="1607.413" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="zU5N_gT2rfe9PYO2KSR_-16" value="[If Hard key is long press]" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#0000FF;" vertex="1" parent="1">
+        <mxCell id="zU5N_gT2rfe9PYO2KSR_-16" value="[If Hard key is long press]" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#0000FF;" parent="1" vertex="1">
           <mxGeometry x="265" y="1614" width="153" height="24" as="geometry" />
         </mxCell>
         <object label="" custom="guaiwuai" placeholders="1" id="zU5N_gT2rfe9PYO2KSR_-17">
-          <mxCell style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxCell style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
             <mxGeometry width="50" height="50" relative="1" as="geometry">
               <mxPoint x="488" y="1809" as="sourcePoint" />
               <mxPoint x="488" y="1829" as="targetPoint" />
@@ -2651,29 +2654,29 @@
             </mxGeometry>
           </mxCell>
         </object>
-        <mxCell id="zU5N_gT2rfe9PYO2KSR_-18" value="唤醒Siri" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="zU5N_gT2rfe9PYO2KSR_-18" value="唤醒Siri" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="484" y="1783" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="zU5N_gT2rfe9PYO2KSR_-19" value="" style="endArrow=none;dashed=1;html=1;rounded=0;fontColor=#0000FF;exitX=-0.001;exitY=0.73;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+        <mxCell id="zU5N_gT2rfe9PYO2KSR_-19" value="" style="endArrow=none;dashed=1;html=1;rounded=0;fontColor=#0000FF;exitX=-0.001;exitY=0.73;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="2.213999999999942" y="1862.21" as="sourcePoint" />
             <mxPoint x="785" y="1862" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="zU5N_gT2rfe9PYO2KSR_-20" value="[If Soft key is Pressed]" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#0000FF;" vertex="1" parent="1">
+        <mxCell id="zU5N_gT2rfe9PYO2KSR_-20" value="[If Soft key is Pressed]" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#0000FF;" parent="1" vertex="1">
           <mxGeometry x="283" y="1866" width="143" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="zU5N_gT2rfe9PYO2KSR_-21" value="opt" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;rounded=0;shadow=0;labelBackgroundColor=none;sketch=0;strokeWidth=2;fontColor=#0000FF;fillColor=none;gradientColor=none;strokeColor=#0000FF;" vertex="1" parent="1">
+        <mxCell id="zU5N_gT2rfe9PYO2KSR_-21" value="opt" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;rounded=0;shadow=0;labelBackgroundColor=none;sketch=0;strokeWidth=2;fontColor=#0000FF;fillColor=none;gradientColor=none;strokeColor=#0000FF;" parent="1" vertex="1">
           <mxGeometry x="18" y="1894" width="762" height="105" as="geometry" />
         </mxCell>
-        <mxCell id="zU5N_gT2rfe9PYO2KSR_-22" value="&lt;font color=&quot;#0000ff&quot;&gt;opt&lt;/font&gt;" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;strokeWidth=2;strokeColor=#0000FF;" vertex="1" parent="1">
+        <mxCell id="zU5N_gT2rfe9PYO2KSR_-22" value="&lt;font color=&quot;#0000ff&quot;&gt;opt&lt;/font&gt;" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;strokeWidth=2;strokeColor=#0000FF;" parent="1" vertex="1">
           <mxGeometry x="28" y="1642" width="736" height="144" as="geometry" />
         </mxCell>
-        <mxCell id="zU5N_gT2rfe9PYO2KSR_-23" value="[If VPA is showing]" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#0000FF;" vertex="1" parent="1">
+        <mxCell id="zU5N_gT2rfe9PYO2KSR_-23" value="[If VPA is showing]" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#0000FF;" parent="1" vertex="1">
           <mxGeometry x="282.75" y="1645" width="108.5" height="23" as="geometry" />
         </mxCell>
         <object label="" custom="guaiwuai" placeholders="1" id="zU5N_gT2rfe9PYO2KSR_-24">
-          <mxCell style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxCell style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
             <mxGeometry width="50" height="50" relative="1" as="geometry">
               <mxPoint x="192.5" y="1695" as="sourcePoint" />
               <mxPoint x="192.5" y="1715" as="targetPoint" />
@@ -2684,11 +2687,11 @@
             </mxGeometry>
           </mxCell>
         </object>
-        <mxCell id="zU5N_gT2rfe9PYO2KSR_-25" value="exitAsr" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="zU5N_gT2rfe9PYO2KSR_-25" value="exitAsr" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="187.5" y="1665" width="60" height="30" as="geometry" />
         </mxCell>
         <object label="" custom="guaiwuai" placeholders="1" id="zU5N_gT2rfe9PYO2KSR_-26">
-          <mxCell style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxCell style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
             <mxGeometry width="50" height="50" relative="1" as="geometry">
               <mxPoint x="193.5" y="1748" as="sourcePoint" />
               <mxPoint x="193.5" y="1768" as="targetPoint" />
@@ -2699,14 +2702,14 @@
             </mxGeometry>
           </mxCell>
         </object>
-        <mxCell id="zU5N_gT2rfe9PYO2KSR_-27" value="enterCarplayMode" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="zU5N_gT2rfe9PYO2KSR_-27" value="enterCarplayMode" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="190" y="1719" width="116" height="33" as="geometry" />
         </mxCell>
-        <mxCell id="zU5N_gT2rfe9PYO2KSR_-28" value="[If carplay is showing]" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#0000FF;" vertex="1" parent="1">
+        <mxCell id="zU5N_gT2rfe9PYO2KSR_-28" value="[If carplay is showing]" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#0000FF;" parent="1" vertex="1">
           <mxGeometry x="286.25" y="1897" width="125.75" height="25" as="geometry" />
         </mxCell>
         <object label="" custom="guaiwuai" placeholders="1" id="zU5N_gT2rfe9PYO2KSR_-29">
-          <mxCell style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxCell style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
             <mxGeometry width="50" height="50" relative="1" as="geometry">
               <mxPoint x="192.5" y="1956" as="sourcePoint" />
               <mxPoint x="192.5" y="1976" as="targetPoint" />
@@ -2717,11 +2720,11 @@
             </mxGeometry>
           </mxCell>
         </object>
-        <mxCell id="zU5N_gT2rfe9PYO2KSR_-30" value="exitCarplayMode" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="zU5N_gT2rfe9PYO2KSR_-30" value="exitCarplayMode" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="183.5" y="1926" width="116" height="33" as="geometry" />
         </mxCell>
         <object label="" custom="guaiwuai" placeholders="1" id="zU5N_gT2rfe9PYO2KSR_-31">
-          <mxCell style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxCell style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
             <mxGeometry width="50" height="50" relative="1" as="geometry">
               <mxPoint x="191.5" y="2033" as="sourcePoint" />
               <mxPoint x="191.5" y="2053" as="targetPoint" />
@@ -2732,14 +2735,14 @@
             </mxGeometry>
           </mxCell>
         </object>
-        <mxCell id="zU5N_gT2rfe9PYO2KSR_-32" value="startAsr" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#000000;" vertex="1" parent="1">
+        <mxCell id="zU5N_gT2rfe9PYO2KSR_-32" value="startAsr" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="191.5" y="2007" width="56" height="24" as="geometry" />
         </mxCell>
-        <mxCell id="zU5N_gT2rfe9PYO2KSR_-33" value="chooseKey" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="zU5N_gT2rfe9PYO2KSR_-33" value="chooseKey" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="191.5" y="1271" width="74.5" height="26" as="geometry" />
         </mxCell>
         <object label="" custom="guaiwuai" placeholders="1" id="zU5N_gT2rfe9PYO2KSR_-34">
-          <mxCell style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxCell style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
             <mxGeometry width="50" height="50" relative="1" as="geometry">
               <mxPoint x="191.5" y="1297" as="sourcePoint" />
               <mxPoint x="191.5" y="1317" as="targetPoint" />
@@ -2750,41 +2753,33 @@
             </mxGeometry>
           </mxCell>
         </object>
-        <mxCell id="zU5N_gT2rfe9PYO2KSR_-35" value="DuerOS&lt;br&gt;CarplayManager" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="zU5N_gT2rfe9PYO2KSR_-35" value="DuerOS&lt;br&gt;CarplayManager" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="138" y="1160" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="zU5N_gT2rfe9PYO2KSR_-36" value="CarplayApp" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="zU5N_gT2rfe9PYO2KSR_-36" value="CarplayApp" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="428" y="1160" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="zU5N_gT2rfe9PYO2KSR_-37" value="" style="endArrow=none;html=1;rounded=0;entryX=0.45;entryY=1.008;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="zU5N_gT2rfe9PYO2KSR_-35">
+        <mxCell id="zU5N_gT2rfe9PYO2KSR_-37" value="" style="endArrow=none;html=1;rounded=0;entryX=0.45;entryY=1.008;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="zU5N_gT2rfe9PYO2KSR_-35" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="192" y="2188" as="sourcePoint" />
             <mxPoint x="198" y="1316" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="zU5N_gT2rfe9PYO2KSR_-38" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" target="zU5N_gT2rfe9PYO2KSR_-36">
+        <mxCell id="zU5N_gT2rfe9PYO2KSR_-38" value="" style="endArrow=none;html=1;rounded=0;" parent="1" target="zU5N_gT2rfe9PYO2KSR_-36" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="487.5" y="2188" as="sourcePoint" />
             <mxPoint x="487.5" y="1306" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="zU5N_gT2rfe9PYO2KSR_-39" value="User" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="zU5N_gT2rfe9PYO2KSR_-39" value="User" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-159" y="1160" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="zU5N_gT2rfe9PYO2KSR_-40" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" target="zU5N_gT2rfe9PYO2KSR_-39">
+        <mxCell id="zU5N_gT2rfe9PYO2KSR_-40" value="" style="endArrow=none;html=1;rounded=0;" parent="1" target="zU5N_gT2rfe9PYO2KSR_-39" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-99.76999999999998" y="2188" as="sourcePoint" />
             <mxPoint x="-99.76999999999998" y="1220" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-      </root>
-    </mxGraphModel>
-  </diagram>
-  <diagram id="P8I_Hl2aNBm-jNxlXfP1" name="第 14 页">
-    <mxGraphModel dx="1434" dy="719" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
-      <root>
-        <mxCell id="0" />
-        <mxCell id="1" parent="0" />
       </root>
     </mxGraphModel>
   </diagram>
