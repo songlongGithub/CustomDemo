@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-12T11:24:37.072Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="R1rtcOXCVsIa2iNrKd9K" version="21.1.5" type="github" pages="13">
+<mxfile host="app.diagrams.net" modified="2023-04-12T11:25:00.334Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="O3DJMNOFfz0XtZZIrIqq" version="21.1.5" type="github" pages="13">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="按时发出">
     <mxGraphModel dx="954" dy="539" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#FFFFFF" math="0" shadow="0">
       <root>
@@ -2557,7 +2557,7 @@
           <mxGeometry x="180" y="206" width="230" height="27.05" as="geometry" />
         </mxCell>
         <mxCell id="0I74_UJAUnos7ur585rz-3" value="Loop" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;strokeWidth=2;strokeColor=#0000FF;" vertex="1" parent="1">
-          <mxGeometry x="79" y="200" width="602" height="52" as="geometry" />
+          <mxGeometry x="135" y="206" width="382" height="48" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
