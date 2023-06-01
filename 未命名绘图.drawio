@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-19T08:54:58.456Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="NSQWFPI5UpEOzD-uII8q" version="21.1.7" type="github" pages="15">
+<mxfile host="app.diagrams.net" modified="2023-06-01T12:42:33.004Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="wVIeqKiQ3eiPcngZiQgr" version="21.3.2" type="github" pages="16">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="按时发出">
     <mxGraphModel dx="954" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#FFFFFF" math="0" shadow="0">
       <root>
@@ -1636,7 +1636,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="KyX4xXZKPuVzk_cLXcJ9" name="EM流程">
-    <mxGraphModel dx="954" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="934" dy="519" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1695,7 +1695,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="xUWetAjP7nxevvs9zWOH" name="第 9 页">
-    <mxGraphModel dx="954" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="934" dy="519" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1758,7 +1758,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Axmnzb4rdscByIS75d-o" name="第 10 页">
-    <mxGraphModel dx="954" dy="482" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="934" dy="519" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2172,7 +2172,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="YyoTiPvYhioA-fgd7gHu" name="第 11 页">
-    <mxGraphModel dx="1754" dy="482" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1734" dy="519" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2692,7 +2692,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="QH5AIte2mTkFwpQlejRY" name="carplay连接">
-    <mxGraphModel dx="954" dy="482" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="934" dy="519" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2922,7 +2922,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="UAUPuYmJAXQHoVd1Zh8S" name="carplay软硬按键">
-    <mxGraphModel dx="1354" dy="-261" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1334" dy="-281" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -3260,6 +3260,83 @@
         </mxCell>
         <mxCell id="0SVy1gd2pO4TxpZfY_JD-16" value="return result" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=bottom;" connectable="0" vertex="1" parent="1">
           <mxGeometry x="390.00352941176465" y="630.0011764705882" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="IfuIUE2eeEcidnqqjDqT" name="第 16 页">
+    <mxGraphModel dx="934" dy="519" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="CEabW6ALtcHHEGAjQvt4-2" value="&lt;font color=&quot;#ffffff&quot;&gt;HW/Audio&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="200.63" y="430" width="458.75" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="CEabW6ALtcHHEGAjQvt4-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CEabW6ALtcHHEGAjQvt4-3" target="CEabW6ALtcHHEGAjQvt4-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CEabW6ALtcHHEGAjQvt4-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="CEabW6ALtcHHEGAjQvt4-3" target="CEabW6ALtcHHEGAjQvt4-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CEabW6ALtcHHEGAjQvt4-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CEabW6ALtcHHEGAjQvt4-3" target="CEabW6ALtcHHEGAjQvt4-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XKcmuN8RSTmuRgvrQXsB-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CEabW6ALtcHHEGAjQvt4-3" target="CEabW6ALtcHHEGAjQvt4-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XKcmuN8RSTmuRgvrQXsB-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CEabW6ALtcHHEGAjQvt4-3" target="CEabW6ALtcHHEGAjQvt4-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XKcmuN8RSTmuRgvrQXsB-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="CEabW6ALtcHHEGAjQvt4-3" target="XKcmuN8RSTmuRgvrQXsB-27">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="630" y="370" />
+              <mxPoint x="630" y="135" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CEabW6ALtcHHEGAjQvt4-3" value="&lt;font color=&quot;#ffffff&quot;&gt;VR ECNR&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="340" y="350" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="XKcmuN8RSTmuRgvrQXsB-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CEabW6ALtcHHEGAjQvt4-5" target="XKcmuN8RSTmuRgvrQXsB-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CEabW6ALtcHHEGAjQvt4-5" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="340" y="220" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="XKcmuN8RSTmuRgvrQXsB-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="XKcmuN8RSTmuRgvrQXsB-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="280" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XKcmuN8RSTmuRgvrQXsB-1" value="&lt;font color=&quot;#ffffff&quot;&gt;Carplay Arbitration&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e3c800;strokeColor=#B09500;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="340" y="50" width="180" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="XKcmuN8RSTmuRgvrQXsB-3" value="&lt;font color=&quot;#ffffff&quot;&gt;Carplay Plugin client&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fa6800;strokeColor=#C73500;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="200" y="50" width="80" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="XKcmuN8RSTmuRgvrQXsB-22" value="&lt;i&gt;Aduio Buffer&lt;/i&gt;" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="340" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="XKcmuN8RSTmuRgvrQXsB-24" value="&lt;div data-slate-node=&quot;element&quot; style=&quot;text-align:left;padding-left:30px&quot; data-morpho-type=&quot;paragraph&quot; class=&quot;mp-paragraph-wrapper&quot;&gt;&lt;i&gt;requestSiri&lt;/i&gt;&lt;/div&gt;" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="180" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="XKcmuN8RSTmuRgvrQXsB-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;dashed=1;" edge="1" parent="1" source="XKcmuN8RSTmuRgvrQXsB-27">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="280" y="135" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XKcmuN8RSTmuRgvrQXsB-27" value="&lt;font color=&quot;#ffffff&quot;&gt;Audio Buffer Pool&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;gradientColor=#7ea6e0;" vertex="1" parent="1">
+          <mxGeometry x="440" y="120" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XKcmuN8RSTmuRgvrQXsB-40" value="Wakeup Engine" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="350" y="250" width="70" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="XKcmuN8RSTmuRgvrQXsB-41" value="Asr Engine" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="440" y="250" width="70" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="XKcmuN8RSTmuRgvrQXsB-42" value="&lt;font color=&quot;#ffffff&quot;&gt;VR Voice Detection&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="220" width="130" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
