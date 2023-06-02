@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-01T12:42:33.004Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="wVIeqKiQ3eiPcngZiQgr" version="21.3.2" type="github" pages="16">
+<mxfile host="app.diagrams.net" modified="2023-06-02T02:42:40.507Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="Z2c3ApnfxaD32bvLvwuC" version="21.3.2" type="github" pages="16">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="按时发出">
     <mxGraphModel dx="954" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#FFFFFF" math="0" shadow="0">
       <root>
@@ -3265,7 +3265,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="IfuIUE2eeEcidnqqjDqT" name="第 16 页">
-    <mxGraphModel dx="934" dy="519" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="934" dy="462" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -3321,7 +3321,7 @@
         <mxCell id="XKcmuN8RSTmuRgvrQXsB-24" value="&lt;div data-slate-node=&quot;element&quot; style=&quot;text-align:left;padding-left:30px&quot; data-morpho-type=&quot;paragraph&quot; class=&quot;mp-paragraph-wrapper&quot;&gt;&lt;i&gt;requestSiri&lt;/i&gt;&lt;/div&gt;" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
           <mxGeometry x="340" y="180" width="80" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="XKcmuN8RSTmuRgvrQXsB-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;dashed=1;" edge="1" parent="1" source="XKcmuN8RSTmuRgvrQXsB-27">
+        <mxCell id="XKcmuN8RSTmuRgvrQXsB-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="XKcmuN8RSTmuRgvrQXsB-27">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="280" y="135" as="targetPoint" />
           </mxGeometry>
@@ -3335,8 +3335,29 @@
         <mxCell id="XKcmuN8RSTmuRgvrQXsB-41" value="Asr Engine" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="440" y="250" width="70" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="XKcmuN8RSTmuRgvrQXsB-42" value="&lt;font color=&quot;#ffffff&quot;&gt;VR Voice Detection&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="XKcmuN8RSTmuRgvrQXsB-42" value="&lt;font color=&quot;#ffffff&quot;&gt;VR&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="340" y="220" width="130" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ssexFcR4LGTFdEwSLPbA-1" value="&lt;div data-slate-node=&quot;element&quot; style=&quot;text-align:left;padding-left:30px&quot; data-morpho-type=&quot;paragraph&quot; class=&quot;mp-paragraph-wrapper&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="110" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="LfiwcELh-szRvGakqi6E-1" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#1aa1e2;fontSize=19;fontColor=#ffffff;fillColor=#1ba1e2;" vertex="1" parent="1">
+          <mxGeometry x="680" y="49" width="20" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="LfiwcELh-szRvGakqi6E-2" value="语音" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="680" y="45" width="90" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="LfiwcELh-szRvGakqi6E-3" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#e4c800;fontSize=19;fontColor=#ffffff;fillColor=#e2c800;" vertex="1" parent="1">
+          <mxGeometry x="680" y="89" width="20" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="LfiwcELh-szRvGakqi6E-4" value="Carplay研发" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="690" y="89" width="130" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="LfiwcELh-szRvGakqi6E-5" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fontSize=19;fontColor=#ffffff;fillColor=#fb6800;" vertex="1" parent="1">
+          <mxGeometry x="680" y="133" width="20" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="LfiwcELh-szRvGakqi6E-6" value="Apple" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="690" y="129" width="90" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
