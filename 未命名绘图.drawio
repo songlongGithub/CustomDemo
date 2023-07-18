@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-06-27T02:34:08.593Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="PJHfrtMF7hgATh0ZVOx7" version="21.5.0" type="github" pages="18">
+<mxfile host="app.diagrams.net" modified="2023-07-18T02:42:19.184Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="tFOyi36PiGkWj8iClPoh" version="21.6.2" type="github" pages="18">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="按时发出">
-    <mxGraphModel dx="954" dy="536" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#FFFFFF" math="0" shadow="0">
+    <mxGraphModel dx="762" dy="533" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#FFFFFF" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -3265,11 +3265,11 @@
     </mxGraphModel>
   </diagram>
   <diagram id="IfuIUE2eeEcidnqqjDqT" name="第 16 页">
-    <mxGraphModel dx="954" dy="536" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="762" dy="533" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="CEabW6ALtcHHEGAjQvt4-2" value="&lt;font color=&quot;#ffffff&quot;&gt;HW/Audio&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+        <mxCell id="CEabW6ALtcHHEGAjQvt4-2" value="&lt;font color=&quot;#ffffff&quot;&gt;HW/Audio&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#36393d;" parent="1" vertex="1">
           <mxGeometry x="200.63" y="430" width="458.75" height="40" as="geometry" />
         </mxCell>
         <mxCell id="CEabW6ALtcHHEGAjQvt4-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="CEabW6ALtcHHEGAjQvt4-3" target="CEabW6ALtcHHEGAjQvt4-5" edge="1">
@@ -3298,7 +3298,7 @@
         <mxCell id="CEabW6ALtcHHEGAjQvt4-3" value="&lt;font color=&quot;#ffffff&quot;&gt;VR ECNR&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" parent="1" vertex="1">
           <mxGeometry x="340" y="350" width="180" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="XKcmuN8RSTmuRgvrQXsB-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="CEabW6ALtcHHEGAjQvt4-5" target="XKcmuN8RSTmuRgvrQXsB-1" edge="1">
+        <mxCell id="XKcmuN8RSTmuRgvrQXsB-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#3333FF;" parent="1" source="CEabW6ALtcHHEGAjQvt4-5" target="XKcmuN8RSTmuRgvrQXsB-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="CEabW6ALtcHHEGAjQvt4-5" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" parent="1" vertex="1">
@@ -3321,13 +3321,13 @@
         <mxCell id="XKcmuN8RSTmuRgvrQXsB-24" value="&lt;div data-slate-node=&quot;element&quot; style=&quot;text-align:left;padding-left:30px&quot; data-morpho-type=&quot;paragraph&quot; class=&quot;mp-paragraph-wrapper&quot;&gt;&lt;i&gt;requestSiri&lt;/i&gt;&lt;/div&gt;" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" parent="1" vertex="1">
           <mxGeometry x="340" y="180" width="80" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="XKcmuN8RSTmuRgvrQXsB-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="XKcmuN8RSTmuRgvrQXsB-27" edge="1">
+        <mxCell id="XKcmuN8RSTmuRgvrQXsB-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;strokeColor=#3333FF;dashed=1;" parent="1" source="XKcmuN8RSTmuRgvrQXsB-27" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="280" y="135" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="XKcmuN8RSTmuRgvrQXsB-27" value="&lt;font color=&quot;#ffffff&quot;&gt;Audio Buffer Pool&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;gradientColor=#7ea6e0;" parent="1" vertex="1">
-          <mxGeometry x="440" y="120" width="80" height="30" as="geometry" />
+          <mxGeometry x="410" y="120" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="XKcmuN8RSTmuRgvrQXsB-40" value="Wakeup Engine" style="html=1;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="350" y="250" width="70" height="35" as="geometry" />
@@ -3359,11 +3359,14 @@
         <mxCell id="LfiwcELh-szRvGakqi6E-6" value="Apple" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="690" y="129" width="90" height="26" as="geometry" />
         </mxCell>
+        <mxCell id="z1KSH9qMJzDlz8wpspLA-1" value="&lt;div data-slate-node=&quot;element&quot; style=&quot;text-align:left;padding-left:30px&quot; data-morpho-type=&quot;paragraph&quot; class=&quot;mp-paragraph-wrapper&quot;&gt;&lt;i&gt;Send RequestSiri&lt;/i&gt;&lt;/div&gt;&lt;div data-slate-node=&quot;element&quot; style=&quot;text-align:left;padding-left:30px&quot; data-morpho-type=&quot;paragraph&quot; class=&quot;mp-paragraph-wrapper&quot;&gt;&lt;i&gt;&amp;nbsp;after checking&lt;/i&gt;&lt;br&gt;&lt;/div&gt;" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="136" width="80" height="26" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="e_cBpbtTCRNcQ3uYMmGl" name="第 17 页">
-    <mxGraphModel dx="1060" dy="596" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="762" dy="533" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -3465,14 +3468,14 @@
             <mxPoint x="410" y="390" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="k4T1PIg7SFB8YJFfvczJ-2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;dashPattern=8 8;strokeColor=#FF3333;" vertex="1" parent="1">
+        <mxCell id="k4T1PIg7SFB8YJFfvczJ-2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;dashPattern=8 8;strokeColor=#FF3333;" parent="1" vertex="1">
           <mxGeometry x="720" y="430" width="350" height="230" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="G9aWbAf1dbkOtMebDNnI" name="第 18 页">
-    <mxGraphModel dx="954" dy="536" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="762" dy="533" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
