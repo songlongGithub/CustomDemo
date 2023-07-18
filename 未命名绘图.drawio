@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-18T02:42:19.184Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="tFOyi36PiGkWj8iClPoh" version="21.6.2" type="github" pages="18">
+<mxfile host="app.diagrams.net" modified="2023-07-18T02:49:18.343Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="d678IsghgFXYOIhs_49p" version="21.6.2" type="github" pages="18">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="按时发出">
     <mxGraphModel dx="762" dy="533" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#FFFFFF" math="0" shadow="0">
       <root>
@@ -3304,9 +3304,10 @@
         <mxCell id="CEabW6ALtcHHEGAjQvt4-5" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" parent="1" vertex="1">
           <mxGeometry x="340" y="220" width="180" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="XKcmuN8RSTmuRgvrQXsB-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="XKcmuN8RSTmuRgvrQXsB-1" edge="1">
+        <mxCell id="XKcmuN8RSTmuRgvrQXsB-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="280" y="100" as="targetPoint" />
+            <mxPoint x="280" y="72" as="targetPoint" />
+            <mxPoint x="340" y="72" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="XKcmuN8RSTmuRgvrQXsB-1" value="&lt;font color=&quot;#ffffff&quot;&gt;Carplay Arbitration&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e3c800;strokeColor=#B09500;fontColor=#000000;" parent="1" vertex="1">
@@ -3318,7 +3319,7 @@
         <mxCell id="XKcmuN8RSTmuRgvrQXsB-22" value="&lt;i&gt;Aduio Buffer&lt;/i&gt;" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" parent="1" vertex="1">
           <mxGeometry x="540" y="340" width="80" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="XKcmuN8RSTmuRgvrQXsB-24" value="&lt;div data-slate-node=&quot;element&quot; style=&quot;text-align:left;padding-left:30px&quot; data-morpho-type=&quot;paragraph&quot; class=&quot;mp-paragraph-wrapper&quot;&gt;&lt;i&gt;requestSiri&lt;/i&gt;&lt;/div&gt;" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" parent="1" vertex="1">
+        <mxCell id="XKcmuN8RSTmuRgvrQXsB-24" value="&lt;div data-slate-node=&quot;element&quot; style=&quot;text-align:left;padding-left:30px&quot; data-morpho-type=&quot;paragraph&quot; class=&quot;mp-paragraph-wrapper&quot;&gt;&lt;font style=&quot;&quot; color=&quot;#3333ff&quot;&gt;requestSiri&lt;/font&gt;&lt;/div&gt;" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" parent="1" vertex="1">
           <mxGeometry x="340" y="180" width="80" height="26" as="geometry" />
         </mxCell>
         <mxCell id="XKcmuN8RSTmuRgvrQXsB-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;strokeColor=#3333FF;dashed=1;" parent="1" source="XKcmuN8RSTmuRgvrQXsB-27" edge="1">
@@ -3359,8 +3360,17 @@
         <mxCell id="LfiwcELh-szRvGakqi6E-6" value="Apple" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="690" y="129" width="90" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="z1KSH9qMJzDlz8wpspLA-1" value="&lt;div data-slate-node=&quot;element&quot; style=&quot;text-align:left;padding-left:30px&quot; data-morpho-type=&quot;paragraph&quot; class=&quot;mp-paragraph-wrapper&quot;&gt;&lt;i&gt;Send RequestSiri&lt;/i&gt;&lt;/div&gt;&lt;div data-slate-node=&quot;element&quot; style=&quot;text-align:left;padding-left:30px&quot; data-morpho-type=&quot;paragraph&quot; class=&quot;mp-paragraph-wrapper&quot;&gt;&lt;i&gt;&amp;nbsp;after checking&lt;/i&gt;&lt;br&gt;&lt;/div&gt;" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+        <mxCell id="z1KSH9qMJzDlz8wpspLA-1" value="&lt;div data-slate-node=&quot;element&quot; style=&quot;text-align: left; padding-left: 30px; font-size: 11px;&quot; data-morpho-type=&quot;paragraph&quot; class=&quot;mp-paragraph-wrapper&quot;&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;&lt;font color=&quot;#3333ff&quot; style=&quot;font-size: 11px;&quot; face=&quot;Verdana&quot;&gt;send RequestSiri&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div data-slate-node=&quot;element&quot; style=&quot;text-align: left; padding-left: 30px; font-size: 11px;&quot; data-morpho-type=&quot;paragraph&quot; class=&quot;mp-paragraph-wrapper&quot;&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;&lt;font color=&quot;#3333ff&quot; style=&quot;font-size: 11px;&quot; face=&quot;Verdana&quot;&gt;&amp;nbsp;after checking&lt;/font&gt;&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
           <mxGeometry x="300" y="136" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="z1KSH9qMJzDlz8wpspLA-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;endArrow=none;endFill=0;startArrow=classic;startFill=1;strokeColor=#3333FF;dashed=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="280" y="107" as="targetPoint" />
+            <mxPoint x="340" y="107" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="z1KSH9qMJzDlz8wpspLA-8" value="&lt;div data-slate-node=&quot;element&quot; style=&quot;text-align:left;padding-left:30px&quot; data-morpho-type=&quot;paragraph&quot; class=&quot;mp-paragraph-wrapper&quot;&gt;&lt;font style=&quot;&quot; color=&quot;#3333ff&quot;&gt;wakeUpSiri&lt;/font&gt;&lt;/div&gt;" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="80" width="50" height="27" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
