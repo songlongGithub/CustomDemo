@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-30T02:14:03.888Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="3v7zmrzZWjRlSnh7643R" version="22.1.4" type="github" pages="20">
+<mxfile host="app.diagrams.net" modified="2023-11-30T06:22:23.885Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="ahcj9Vo_3MMRiVh3RKcC" version="22.1.4" type="github" pages="20">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="按时发出">
     <mxGraphModel dx="954" dy="526" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#FFFFFF" math="0" shadow="0">
       <root>
@@ -3485,7 +3485,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="G9aWbAf1dbkOtMebDNnI" name="第 18 页">
-    <mxGraphModel dx="3212" dy="1315" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1657" dy="457" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -3995,10 +3995,110 @@
     </mxGraphModel>
   </diagram>
   <diagram id="GAyogGF6wFV2kmN60LGL" name="第 20 页">
-    <mxGraphModel dx="954" dy="526" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1781" dy="526" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="eUf8P025ysgLSh5KHg4g-1" value="语音技术部" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="150" y="230" width="100" height="1500" as="geometry" />
+        </mxCell>
+        <mxCell id="eUf8P025ysgLSh5KHg4g-9" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="eUf8P025ysgLSh5KHg4g-1">
+          <mxGeometry x="45" y="100" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="eUf8P025ysgLSh5KHg4g-3" value="RecordImpl" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="390" y="230" width="100" height="1500" as="geometry" />
+        </mxCell>
+        <mxCell id="eUf8P025ysgLSh5KHg4g-4" value="AudioRecording&lt;br&gt;Callback" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="770" y="230" width="100" height="1500" as="geometry" />
+        </mxCell>
+        <mxCell id="fV6i2vd6Fm6641cPZCsY-22" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="eUf8P025ysgLSh5KHg4g-4">
+          <mxGeometry x="44" y="345" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fV6i2vd6Fm6641cPZCsY-23" value="configSize = 0 and&lt;br&gt;recordStatus=&lt;br style=&quot;border-color: var(--border-color); font-size: 12px; text-align: center; background-color: rgb(251, 251, 251);&quot;&gt;&lt;span style=&quot;font-size: 12px; text-align: center; background-color: rgb(251, 251, 251);&quot;&gt;RELEASE_PREVIOU&lt;br&gt;不用重新拉起录音&lt;/span&gt;" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" target="fV6i2vd6Fm6641cPZCsY-22" parent="eUf8P025ysgLSh5KHg4g-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="49" y="325" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="79" y="355" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eUf8P025ysgLSh5KHg4g-7" value="业务层" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="-40" y="230" width="100" height="1500" as="geometry" />
+        </mxCell>
+        <mxCell id="eUf8P025ysgLSh5KHg4g-10" value="startWakeup" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" target="eUf8P025ysgLSh5KHg4g-9" parent="1" source="eUf8P025ysgLSh5KHg4g-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="125" y="335" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eUf8P025ysgLSh5KHg4g-11" value="startRecord" style="html=1;verticalAlign=bottom;endArrow=classic;endSize=8;curved=0;rounded=0;endFill=1;" edge="1" source="eUf8P025ysgLSh5KHg4g-9" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="439.5" y="401" as="targetPoint" />
+            <mxPoint x="210" y="401" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fV6i2vd6Fm6641cPZCsY-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="fV6i2vd6Fm6641cPZCsY-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="439" y="565" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fV6i2vd6Fm6641cPZCsY-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fV6i2vd6Fm6641cPZCsY-4" target="fV6i2vd6Fm6641cPZCsY-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fV6i2vd6Fm6641cPZCsY-4" value="创建新的录音" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="379" y="595" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fV6i2vd6Fm6641cPZCsY-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fV6i2vd6Fm6641cPZCsY-6" target="fV6i2vd6Fm6641cPZCsY-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fV6i2vd6Fm6641cPZCsY-6" value="之前&lt;br&gt;录音对象，是否为空" style="rhombus;whiteSpace=wrap;html=1;container=0;" vertex="1" parent="1">
+          <mxGeometry x="399" y="485" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="fV6i2vd6Fm6641cPZCsY-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="fV6i2vd6Fm6641cPZCsY-8" target="fV6i2vd6Fm6641cPZCsY-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fV6i2vd6Fm6641cPZCsY-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fV6i2vd6Fm6641cPZCsY-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="817" y="525" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fV6i2vd6Fm6641cPZCsY-8" value="释放之前录音&lt;br&gt;recordStatus=&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;RELEASE_PREVIOU" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="495" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fV6i2vd6Fm6641cPZCsY-9" value="否" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="470" y="495" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fV6i2vd6Fm6641cPZCsY-10" value="&lt;font color=&quot;#3399ff&quot;&gt;录音守护线程Loop每隔1s&lt;/font&gt;" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=80;height=35;strokeColor=#3399FF;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="269" y="450" width="401" height="440" as="geometry" />
+        </mxCell>
+        <mxCell id="fV6i2vd6Fm6641cPZCsY-11" value="录音是否正常" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="399" y="765" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="fV6i2vd6Fm6641cPZCsY-12" value="" style="html=1;verticalAlign=bottom;endArrow=none;curved=0;rounded=0;endFill=0;startArrow=classic;startFill=1;dashed=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#3333FF;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="438" y="465" as="sourcePoint" />
+            <mxPoint x="398" y="805" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="359" y="465" />
+              <mxPoint x="359" y="555" />
+              <mxPoint x="359" y="805" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fV6i2vd6Fm6641cPZCsY-13" value="否，重启录音链路" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="289" y="765" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fV6i2vd6Fm6641cPZCsY-14" value="是" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="439" y="855" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fV6i2vd6Fm6641cPZCsY-15" value="是" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="439" y="565" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fV6i2vd6Fm6641cPZCsY-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fV6i2vd6Fm6641cPZCsY-17" target="fV6i2vd6Fm6641cPZCsY-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fV6i2vd6Fm6641cPZCsY-17" value="授权时获取的录音状态&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;RecordStatus =&lt;br&gt;&amp;nbsp;INITIALIZED" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="371.5" y="695" width="135" height="50" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
