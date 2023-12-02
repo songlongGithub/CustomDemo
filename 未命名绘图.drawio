@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-01T13:06:46.037Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="IoHZoLAAgaQ1iedCrdOd" version="22.1.5" type="github" pages="21">
+<mxfile host="app.diagrams.net" modified="2023-12-01T16:57:20.454Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="Z5DWOZNj_jjHk-6WDgvR" version="22.1.5" type="github" pages="21">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="按时发出">
     <mxGraphModel dx="954" dy="526" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#FFFFFF" math="0" shadow="0">
       <root>
@@ -4157,7 +4157,7 @@
         <mxCell id="1CTbf8DoRjJ233RoPwJZ-18" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=12;" vertex="1" parent="1CTbf8DoRjJ233RoPwJZ-5">
           <mxGeometry x="45" y="187" width="10" height="36" as="geometry" />
         </mxCell>
-        <mxCell id="1CTbf8DoRjJ233RoPwJZ-19" value="init" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;fontSize=12;" edge="1" target="1CTbf8DoRjJ233RoPwJZ-18" parent="1CTbf8DoRjJ233RoPwJZ-5">
+        <mxCell id="1CTbf8DoRjJ233RoPwJZ-19" value="start init" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;fontSize=12;" edge="1" target="1CTbf8DoRjJ233RoPwJZ-18" parent="1CTbf8DoRjJ233RoPwJZ-5">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="50" y="167" as="sourcePoint" />
             <Array as="points">
@@ -4168,7 +4168,7 @@
         <mxCell id="1CTbf8DoRjJ233RoPwJZ-25" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=12;" vertex="1" parent="1CTbf8DoRjJ233RoPwJZ-5">
           <mxGeometry x="45" y="260" width="10" height="36" as="geometry" />
         </mxCell>
-        <mxCell id="1CTbf8DoRjJ233RoPwJZ-26" value="copy配置文件" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;fontSize=12;" edge="1" parent="1CTbf8DoRjJ233RoPwJZ-5" target="1CTbf8DoRjJ233RoPwJZ-25">
+        <mxCell id="1CTbf8DoRjJ233RoPwJZ-26" value="copy配置文件到sd中" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;fontSize=12;" edge="1" parent="1CTbf8DoRjJ233RoPwJZ-5" target="1CTbf8DoRjJ233RoPwJZ-25">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="50" y="240" as="sourcePoint" />
             <Array as="points">
@@ -4179,7 +4179,7 @@
         <mxCell id="7XupQsUVCMp2LmPHauIq-4" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=12;" vertex="1" parent="1CTbf8DoRjJ233RoPwJZ-5">
           <mxGeometry x="45" y="680" width="10" height="36" as="geometry" />
         </mxCell>
-        <mxCell id="7XupQsUVCMp2LmPHauIq-5" value="init" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;fontSize=12;" edge="1" parent="1CTbf8DoRjJ233RoPwJZ-5" target="7XupQsUVCMp2LmPHauIq-4">
+        <mxCell id="7XupQsUVCMp2LmPHauIq-5" value="start init" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;fontSize=12;" edge="1" parent="1CTbf8DoRjJ233RoPwJZ-5" target="7XupQsUVCMp2LmPHauIq-4">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="50" y="660" as="sourcePoint" />
             <Array as="points">
@@ -4190,7 +4190,7 @@
         <mxCell id="7XupQsUVCMp2LmPHauIq-6" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=12;" vertex="1" parent="1CTbf8DoRjJ233RoPwJZ-5">
           <mxGeometry x="45" y="753" width="10" height="36" as="geometry" />
         </mxCell>
-        <mxCell id="7XupQsUVCMp2LmPHauIq-7" value="copy配置文件" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;fontSize=12;" edge="1" parent="1CTbf8DoRjJ233RoPwJZ-5" target="7XupQsUVCMp2LmPHauIq-6">
+        <mxCell id="7XupQsUVCMp2LmPHauIq-7" value="copy配置文件到sd卡" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;fontSize=12;" edge="1" parent="1CTbf8DoRjJ233RoPwJZ-5" target="7XupQsUVCMp2LmPHauIq-6">
           <mxGeometry x="0.0084" relative="1" as="geometry">
             <mxPoint x="50" y="733" as="sourcePoint" />
             <Array as="points">
