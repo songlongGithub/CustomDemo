@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-01-03T09:13:08.363Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="3ucAZBpqa6bL1hW81V5J" version="22.1.16" type="github" pages="23">
+<mxfile host="app.diagrams.net" modified="2024-01-23T12:59:15.116Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="y7tVh6MMqp_KLEhD8k5c" version="22.1.21" type="github" pages="24">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="按时发出">
-    <mxGraphModel dx="954" dy="523" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#FFFFFF" math="0" shadow="0">
+    <mxGraphModel dx="954" dy="533" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#FFFFFF" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -4452,7 +4452,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="JTMbQ77dF5Hbulxn-ET5" name="第 23 页">
-    <mxGraphModel dx="954" dy="523" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1363" dy="761" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -4507,8 +4507,88 @@
         <mxCell id="MxBMKS9ii0kbFD3vlAq7-36" value="异步" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="750" y="200" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="S51KBLdEXwLnPi9MTxDB-2" value="其他初始化" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="S51KBLdEXwLnPi9MTxDB-2" value="其他初始化" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="400" y="410" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="CFTwHZpNPy-klJ6uVzri" name="第 24 页">
+    <mxGraphModel dx="1193" dy="666" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="KcaA1JK4AfVKzEanFBwJ-39" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="560" y="393.75" width="510" height="106.25" as="geometry" />
+        </mxCell>
+        <mxCell id="KcaA1JK4AfVKzEanFBwJ-38" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="560" y="227.5" width="750" height="145" as="geometry" />
+        </mxCell>
+        <mxCell id="KcaA1JK4AfVKzEanFBwJ-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KcaA1JK4AfVKzEanFBwJ-2" target="KcaA1JK4AfVKzEanFBwJ-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KcaA1JK4AfVKzEanFBwJ-2" value="语音初始化" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KcaA1JK4AfVKzEanFBwJ-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KcaA1JK4AfVKzEanFBwJ-3" target="KcaA1JK4AfVKzEanFBwJ-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KcaA1JK4AfVKzEanFBwJ-3" value="查询录音开关状态" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KcaA1JK4AfVKzEanFBwJ-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="KcaA1JK4AfVKzEanFBwJ-3" target="KcaA1JK4AfVKzEanFBwJ-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KcaA1JK4AfVKzEanFBwJ-5" value="语音初始化完成" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="400" y="620" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KcaA1JK4AfVKzEanFBwJ-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KcaA1JK4AfVKzEanFBwJ-7" target="KcaA1JK4AfVKzEanFBwJ-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KcaA1JK4AfVKzEanFBwJ-7" value="开关是否为开" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="620" y="260" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="KcaA1JK4AfVKzEanFBwJ-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KcaA1JK4AfVKzEanFBwJ-9" target="KcaA1JK4AfVKzEanFBwJ-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KcaA1JK4AfVKzEanFBwJ-9" value="启动唤醒引擎" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="760" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KcaA1JK4AfVKzEanFBwJ-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KcaA1JK4AfVKzEanFBwJ-11" target="KcaA1JK4AfVKzEanFBwJ-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KcaA1JK4AfVKzEanFBwJ-11" value="启动录音链路" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="960" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KcaA1JK4AfVKzEanFBwJ-17" value="开" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="700" y="260" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KcaA1JK4AfVKzEanFBwJ-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KcaA1JK4AfVKzEanFBwJ-19" target="KcaA1JK4AfVKzEanFBwJ-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KcaA1JK4AfVKzEanFBwJ-19" value="车机管家是否授予录音权限" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="400" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="KcaA1JK4AfVKzEanFBwJ-20" value="关闭唤醒引擎" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="900" y="410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KcaA1JK4AfVKzEanFBwJ-22" value="否" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="760" y="410" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KcaA1JK4AfVKzEanFBwJ-33" value="如果没有录音权限，这次启动的录音链接异常" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1160" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="emoUbmasY6ypOaTex-_G-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="emoUbmasY6ypOaTex-_G-2" target="KcaA1JK4AfVKzEanFBwJ-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="emoUbmasY6ypOaTex-_G-2" value="查询车机管家权限" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="emoUbmasY6ypOaTex-_G-4" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;线程A&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="570" y="230" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="emoUbmasY6ypOaTex-_G-5" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;线程B&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="570" y="400" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
