@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-13T03:13:25.682Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="WATL5o3BQu8HzdGGDF82" version="24.0.5" type="github" pages="28">
+<mxfile host="app.diagrams.net" modified="2024-03-13T03:16:50.121Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="MH-XWx-p8omBolr6KWW0" version="24.0.5" type="github" pages="28">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="按时发出">
     <mxGraphModel dx="954" dy="520" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#FFFFFF" math="0" shadow="0">
       <root>
@@ -4971,6 +4971,17 @@
             <mxPoint x="130" y="220" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="rrOuXlsV1AetvcNsJqDA-51" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};strokeColor=#FF0000;" vertex="1" parent="rrOuXlsV1AetvcNsJqDA-1">
+          <mxGeometry x="45" y="487" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rrOuXlsV1AetvcNsJqDA-52" value="&lt;font color=&quot;#ff0000&quot;&gt;显示siri相关的nlu指令&lt;/font&gt;" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;strokeColor=#FF0000;" edge="1" target="rrOuXlsV1AetvcNsJqDA-51" parent="rrOuXlsV1AetvcNsJqDA-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="50" y="467" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="80" y="497" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="rrOuXlsV1AetvcNsJqDA-3" value="语音" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
           <mxGeometry x="480" y="70" width="100" height="700" as="geometry" />
         </mxCell>
@@ -5081,7 +5092,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rrOuXlsV1AetvcNsJqDA-48" value="&lt;font color=&quot;#ff0000&quot;&gt;触发siri相关的指令&lt;/font&gt;" style="html=1;verticalAlign=bottom;endArrow=none;curved=0;rounded=0;endFill=0;startArrow=classic;startFill=1;dashed=1;strokeColor=#FF0000;" edge="1" parent="1">
+        <mxCell id="rrOuXlsV1AetvcNsJqDA-48" value="&lt;font color=&quot;#ff0000&quot;&gt;识别模型触发siri相关的指令&lt;/font&gt;" style="html=1;verticalAlign=bottom;endArrow=none;curved=0;rounded=0;endFill=0;startArrow=classic;startFill=1;dashed=1;strokeColor=#FF0000;" edge="1" parent="1">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="301" y="510" as="sourcePoint" />
             <mxPoint x="524.5" y="510" as="targetPoint" />
