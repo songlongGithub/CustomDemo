@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-03-11T06:59:51.479Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="0WNU70OwxGtJ1LXd9zxD" version="23.1.1" type="github" pages="27">
+<mxfile host="app.diagrams.net" modified="2024-03-13T03:13:25.682Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="WATL5o3BQu8HzdGGDF82" version="24.0.5" type="github" pages="28">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="按时发出">
-    <mxGraphModel dx="954" dy="519" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#FFFFFF" math="0" shadow="0">
+    <mxGraphModel dx="954" dy="520" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#FFFFFF" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -4950,6 +4950,142 @@
         </mxCell>
         <mxCell id="DBmXp1CHxuL6tlblKdWh-5" value="&lt;font color=&quot;#60a917&quot;&gt;语音录音仲裁&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="897.5" y="818" width="125" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="s2Ui3VYVwDCZPo5uvGkA" name="第 28 页">
+    <mxGraphModel dx="1434" dy="784" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="rrOuXlsV1AetvcNsJqDA-1" value="VPA" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="250" y="70" width="100" height="700" as="geometry" />
+        </mxCell>
+        <mxCell id="rrOuXlsV1AetvcNsJqDA-7" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="rrOuXlsV1AetvcNsJqDA-1">
+          <mxGeometry x="45" y="210" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="rrOuXlsV1AetvcNsJqDA-8" value="进入单行模式调用switch2SingleLineMode" style="html=1;verticalAlign=bottom;endArrow=none;curved=0;rounded=0;endFill=0;startArrow=classic;startFill=1;" edge="1" target="rrOuXlsV1AetvcNsJqDA-3" parent="rrOuXlsV1AetvcNsJqDA-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="55" y="220" as="sourcePoint" />
+            <mxPoint x="130" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rrOuXlsV1AetvcNsJqDA-3" value="语音" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="480" y="70" width="100" height="700" as="geometry" />
+        </mxCell>
+        <mxCell id="rrOuXlsV1AetvcNsJqDA-49" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="rrOuXlsV1AetvcNsJqDA-3">
+          <mxGeometry x="45" y="592" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rrOuXlsV1AetvcNsJqDA-50" value="siri被拉起" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" target="rrOuXlsV1AetvcNsJqDA-49" parent="rrOuXlsV1AetvcNsJqDA-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="50" y="572" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="80" y="602" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rrOuXlsV1AetvcNsJqDA-4" value="Carplay" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="690" y="70" width="100" height="700" as="geometry" />
+        </mxCell>
+        <mxCell id="rrOuXlsV1AetvcNsJqDA-38" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="rrOuXlsV1AetvcNsJqDA-4">
+          <mxGeometry x="45" y="200" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rrOuXlsV1AetvcNsJqDA-39" value="收到vpa启动标志位&lt;div&gt;不会处理siri事件&lt;/div&gt;" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" target="rrOuXlsV1AetvcNsJqDA-38" parent="rrOuXlsV1AetvcNsJqDA-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="50" y="180" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="80" y="210" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rrOuXlsV1AetvcNsJqDA-42" value="返回siri拉起状态" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" parent="rrOuXlsV1AetvcNsJqDA-4">
+          <mxGeometry x="0.0024" relative="1" as="geometry">
+            <mxPoint x="-160.5" y="535" as="targetPoint" />
+            <mxPoint x="45" y="535" as="sourcePoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rrOuXlsV1AetvcNsJqDA-43" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="rrOuXlsV1AetvcNsJqDA-4">
+          <mxGeometry x="45" y="490" width="10" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rrOuXlsV1AetvcNsJqDA-44" value="检测siri事件是否正确" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" target="rrOuXlsV1AetvcNsJqDA-43" parent="rrOuXlsV1AetvcNsJqDA-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="50" y="470" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="80" y="500" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rrOuXlsV1AetvcNsJqDA-9" value="收起ui，进入全双工单行模式" style="html=1;verticalAlign=bottom;endArrow=none;endSize=8;curved=0;rounded=0;startArrow=classic;startFill=1;endFill=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="305" y="351" as="targetPoint" />
+            <mxPoint x="530" y="351" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rrOuXlsV1AetvcNsJqDA-12" value="发送vpa退出标志位" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" target="rrOuXlsV1AetvcNsJqDA-4">
+          <mxGeometry x="0.0024" width="80" relative="1" as="geometry">
+            <mxPoint x="530" y="390" as="sourcePoint" />
+            <mxPoint x="610" y="390" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rrOuXlsV1AetvcNsJqDA-16" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="525" y="458" width="10" height="71" as="geometry" />
+        </mxCell>
+        <mxCell id="rrOuXlsV1AetvcNsJqDA-17" value="检测siri唤醒词" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" target="rrOuXlsV1AetvcNsJqDA-16" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="530" y="438" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="560" y="468" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rrOuXlsV1AetvcNsJqDA-32" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;" vertex="1" parent="1">
+          <mxGeometry x="149" y="70" width="20" height="700" as="geometry" />
+        </mxCell>
+        <mxCell id="rrOuXlsV1AetvcNsJqDA-33" value="软硬按键拉起siri" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="160" y="154" as="sourcePoint" />
+            <mxPoint x="299.5" y="154" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rrOuXlsV1AetvcNsJqDA-34" value="wakeup事件" style="html=1;verticalAlign=bottom;endArrow=none;curved=0;rounded=0;endFill=0;startArrow=classic;startFill=1;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="299.5" y="129" as="sourcePoint" />
+            <mxPoint x="530" y="129" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rrOuXlsV1AetvcNsJqDA-36" value="VPA启动" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" target="rrOuXlsV1AetvcNsJqDA-3">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="300" y="180" as="sourcePoint" />
+            <mxPoint x="380" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rrOuXlsV1AetvcNsJqDA-37" value="发送vpa启动标志位" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="530" y="216" as="sourcePoint" />
+            <mxPoint x="739.5" y="216" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rrOuXlsV1AetvcNsJqDA-41" value="发送siri时间戳" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="536" y="520" as="sourcePoint" />
+            <mxPoint x="736" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rrOuXlsV1AetvcNsJqDA-47" value="toInactive退出VPA" style="html=1;verticalAlign=bottom;endArrow=none;curved=0;rounded=0;dashed=1;endFill=0;startArrow=classic;startFill=1;" edge="1" parent="1">
+          <mxGeometry x="0.0022" width="80" relative="1" as="geometry">
+            <mxPoint x="300" y="693" as="sourcePoint" />
+            <mxPoint x="523" y="693" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rrOuXlsV1AetvcNsJqDA-48" value="&lt;font color=&quot;#ff0000&quot;&gt;触发siri相关的指令&lt;/font&gt;" style="html=1;verticalAlign=bottom;endArrow=none;curved=0;rounded=0;endFill=0;startArrow=classic;startFill=1;dashed=1;strokeColor=#FF0000;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="301" y="510" as="sourcePoint" />
+            <mxPoint x="524.5" y="510" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
